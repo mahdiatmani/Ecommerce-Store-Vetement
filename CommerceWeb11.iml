@@ -29,6 +29,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
+          <unit-entry name="com:commerce:model:dao:hibernate.cfg.xml" value="e1145abb-9f85-4cfe-8c41-92b5f60a1089" />
           <unit-entry name="hibernate.cfg.xml" />
         </datasource-map>
         <naming-strategy-map />
