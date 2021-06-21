@@ -21,6 +21,10 @@
         <servlet-class>servlets.CommanderServlet</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>registerClientServlet</servlet-name>
+        <servlet-class>servlets.registerClientServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>RefuserCommandeServlet</servlet-name>
         <servlet-class>admin.RefuserCommandeServlet</servlet-class>
     </servlet>
@@ -91,6 +95,10 @@
     <servlet-mapping>
         <servlet-name>LoginServelet</servlet-name>
         <url-pattern>/LoginServelet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>registerClientServlet</servlet-name>
+        <url-pattern>/registerClientServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>LogoutServelet</servlet-name>

@@ -90,7 +90,7 @@ while(t < 2 )
                       <img width="203" height="186" src="<%= articles.get(i).getImg() %>" alt="" />
                   </a>
 <%
-if(articles.get(i).getDateAjout().getYear()+1900 >= 2014)
+if(articles.get(i).getDateAjout().getYear()+1900 >= 2021)
 {
 %>
                 <div class="new"></div>

@@ -24,8 +24,7 @@ public class ClientDao
     {
         try
         {
-            String req = "INSERT INTO `wshopdb`.`client` (`login`, `mdp`, `nom`, `prenom`, `dtnaissance`)"
-                    + " VALUES ('" + a.getLogin() + "', '" + a.getMdp() + "', '" + a.getNom() + "', '" + a.getPrenom() + "', '" + a.getDtNaissance() + "');";
+            String req = "INSERT INTO client  VALUES ('" + a.getLogin() + "', '" + a.getMdp() + "', '" + a.getNom() + "', '" + a.getPrenom() + "', NULL );";
 
             Statement st = con.createStatement();
 

@@ -66,6 +66,7 @@ for(LignePanier lp : panier.getLignesPanier())
 
             <li> <a href="mon_compte.jsp">Mon Compte</a></li>
           <li> <a href="contactez-nous.jsp">Contactez Nous</a></li>
+            <li> <a href="Admin/login.jsp">Admin</a></li>
           <li class="search">
               <form action="produits.jsp" method="GET">
                 <input type="image" class="action" src="images/search-action.jpg" />
@@ -97,7 +98,7 @@ for(LignePanier lp : panier.getLignesPanier())
                       Mdp : 	<input type="password" name="mdp" style="width:100%" />
                   </li>
                   </ul>
-                  <a href="#" style="margin:5px"> S'inscrire..</a>
+                  <a href="registerClient.jsp" style="margin:5px"> S'inscrire..</a>
                  <input style="margin-left:20px;margin-right:-20px;" type="submit" value="Valider" />
                       </form>
 

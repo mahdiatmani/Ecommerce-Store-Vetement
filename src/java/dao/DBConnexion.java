@@ -11,7 +11,7 @@ public class DBConnexion
         try
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/wshopdb","root","");
+            con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/wshop","root","");
         }
         catch(ClassNotFoundException e)
         {
