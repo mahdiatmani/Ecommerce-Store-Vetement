@@ -52,9 +52,12 @@ for(LignePanier lp : panier.getLignesPanier())
 
 %>
 
-        <li class="cart"><a href="panier.jsp">Panier d'Achat</a></li>
+
+        <li class="notification"><a href="panier.jsp">Panier d'Achat
+            <span class="badge"><%= panier.getNumberArticle() %></span>
+        </a></li>
         <li class="cart-value">
-            <span class="blue"><a href="panier.jsp"><%= panier.getNumberArticle() %> produits</a></span> | <span>$<%= prixT %> </span></li>
+            <span class="blue"><a href="panier.jsp"><%= panier.getNumberArticle() %> produits</a></span> |<img src="images/dollar-currency-symbol.png"> <b> <span style=font-size:150%;"><%= prixT %></span></b></li>
       </ul>
     </div>
     <!-- end div #TopContent -->

@@ -5,6 +5,8 @@
 <%@include file="header.jsp" %>
 <title> Vet Estore </title>
 
+
+</a>
 <div class="RightSide">
     
     <%
@@ -99,7 +101,7 @@ if(articles.get(i).getDateAjout().getYear()+1900 >= 2021)
             </div>
             <div class="catDetail">
               <h4><a href="article.jsp?id=<%= articles.get(i).getIdArticle() %>"><%= articles.get(i).getLibelle() %> </a></h4>
-              <p><%= articles.get(i).getPrix() %>$</p>
+              <p><%= articles.get(i).getPrix() %></p>
             </div>
               
           </li>
