@@ -141,7 +141,7 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-			<!-- end actions-box........... -->
+			<-- end actions-box........... -->
 			
 			<!--  start paging..................................................... -->
                         <!-- ACTION BOX + PAGINATION 
@@ -165,7 +165,7 @@
 			</td>
 			</tr>
 			</table>
-			<!--  end paging................ -->
+			<--  end paging................ -->
 			
 			<div class="clear"></div>
 		 

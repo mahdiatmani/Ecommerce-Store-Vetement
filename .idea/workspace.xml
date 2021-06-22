@@ -7,42 +7,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402bba61-db56-467d-944b-c5f30ddab227" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/registerClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/registerClientServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/produitImages/car.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/registerClient.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/store/servlets/registerClientServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/servlets/registerClientServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/produitImages/car.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/registerClient.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_221.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_221.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ArticleAjouter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ArticleAjouter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CommandeAfficher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CommandeAfficher.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CommandeListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CommandeListe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CompteListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CompteListe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/_footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/_footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/_header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/_header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/panier/LignePanier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/panier/LignePanier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ProduitListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ProduitListe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ClientDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ClientDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/DBConnexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/DBConnexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/entities/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/CompteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/CompteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/test/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/test/TestMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/contactez-nous.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/contactez-nous.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/mescommandes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/mescommandes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/mon_compte.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/mon_compte.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/panier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/panier.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/produits.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/produits.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/slideshow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/slideshow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/store/panier/LignePanier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/panier/LignePanier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/panier/LignePanier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/panier/LignePanier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Admin/ArticleAjouter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/ArticleAjouter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Admin/CommandeAfficher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/CommandeAfficher.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Admin/CommandeListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/CommandeListe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Admin/CompteListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/CompteListe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Admin/_footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/_footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Admin/_header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/_header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/ClientDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/ClientDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/DBConnexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/DBConnexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/entities/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/servlets/CompteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/servlets/CompteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/test/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/test/TestMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dao/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/ClientDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dao/DBConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/DBConnexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/servlets/CompteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/CompteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/test/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/store.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/ProduitListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/ProduitListe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/contactez-nous.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/contactez-nous.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mescommandes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mescommandes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mon_compte.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mon_compte.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/panier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/panier.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/produits.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/produits.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/slideshow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/slideshow.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +55,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,6 +106,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\oulma\Desktop\project jee\web\produitImages" />
       <recent name="C:\Users\user\Desktop\MiniProjet-JEE-e-Commerce-master\web\produitImages" />
       <recent name="C:\Users\user\Desktop\MiniProjet-JEE-e-Commerce-master\web\js\images" />
     </key>
@@ -229,6 +242,7 @@
       <workItem from="1624232279332" duration="11782000" />
       <workItem from="1624317466114" duration="8885000" />
       <workItem from="1624393750803" duration="1227000" />
+      <workItem from="1624399998707" duration="1680000" />
     </task>
     <servers />
   </component>
@@ -249,5 +263,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServlet.class</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

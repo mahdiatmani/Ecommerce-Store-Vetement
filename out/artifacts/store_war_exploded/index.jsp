@@ -1,11 +1,11 @@
-<%@page import="java.util.Calendar"%>
-<%@page import="entities.Article"%>
-<%@page import="java.util.Vector"%>
-<%@page import="dao.ArticleDao"%>
-<%@include file="header.jsp" %>
-<title> Vet Estore </title>
+  <%@page import="java.util.Calendar"%>
+  <%@page import="entities.Article"%>
+  <%@page import="java.util.Vector"%>
+  <%@page import="dao.ArticleDao"%>
+  <%@include file="header.jsp" %>
 
-<div class="RightSide">
+  <title> Vet Estore </title>
+   <div class="RightSide">
     <%
         if(request.getParameter("con") != null){
     %>
@@ -13,7 +13,7 @@
         <p style="padding: 5px;"> Veuillez se Connecter...</p>
     </div>
     <% } %>
-    
+
     <%@include file="slideshow.jsp" %>
     
       <div class="bredCrum" style="margin-bottom:38px;">
@@ -39,9 +39,9 @@
             int t = 0 ;
           %>
     <!-- DEBUT  BOUCLE !! -->
-<% 
-while(t < 2 ) {
-%>
+   <%
+     while(t < 2 ) {
+   %>
       <div class="catrow">
         <ul>
    <%
@@ -64,11 +64,11 @@ while(t < 2 ) {
                   <a href="article.jsp?id=<%= articles.get(i).getIdArticle() %>">
                       <img width="203" height="186" src="<%= articles.get(i).getImg() %>" alt="" />
                   </a>
-<%
-if(articles.get(i).getDateAjout().getYear()+1900 >= 2060) {
-%>
+   <%
+   if(articles.get(i).getDateAjout().getYear()+1900 >= 2060) {
+   %>
                 <div class="new"></div>
-<%}%>
+    <%}%>
             </div>
             <div class="catDetail">
               <h4><a href="article.jsp?id=<%= articles.get(i).getIdArticle() %>"><%= articles.get(i).getLibelle() %> </a></h4>
@@ -79,10 +79,10 @@ if(articles.get(i).getDateAjout().getYear()+1900 >= 2060) {
         </ul>
         <div class="clr"></div>
       </div>
-<% 
-t++ ;
-init += 3 ;
-}%>        
+    <%
+          t++ ;
+          init += 3 ;
+   }%>
         <!-- FIN BOUCLE !! -->
       <div class="paging">
         <div class="pagingDiv">
@@ -103,4 +103,4 @@ init += 3 ;
         <div class="clr"></div>
       </div>
     </div>
-<%@include file="footer.jsp" %>
+   <%@include file="footer.jsp" %>

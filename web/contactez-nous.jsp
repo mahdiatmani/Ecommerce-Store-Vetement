@@ -8,9 +8,6 @@
     <div class="bredCrum">
         <h4><a href="index.html">Accueil</a>   >>   <a href="#" class="select">Contactez Nous //Non fonctionnel.. :( </a> </h4>
     </div>
-
-
-
 	<form style=" padding: 180px; padding-top:50px;" id="contact_form" action="#" method="POST" enctype="
     multipart/form-data">
 	<div class="row">
@@ -26,12 +23,6 @@
 		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
 	</div>
 	<input id="submit_button" type="submit" value="Envoyer" />
-</form>				
-        
-        
-    
-    
-    
+</form>
 </div>
-
 <%@include file="footer.jsp" %>

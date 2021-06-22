@@ -45,6 +45,7 @@ public class CompteServlet extends HttpServlet
 
         if (dao.update(c))
         {
+
             response.sendRedirect("mon_compte.jsp?update=success");
             
             request.getSession().setAttribute("client", c);

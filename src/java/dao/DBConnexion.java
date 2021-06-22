@@ -1,33 +1,24 @@
 package dao ;
 import java.sql.*;
 
-
-public class DBConnexion
-{
+public class DBConnexion {
     private static Connection con=null;
  
-    private DBConnexion()
-    {
-        try
-        {
+    private DBConnexion() {
+        try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/wshopdb","root","");
+            con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/wshop","root","");
         }
-        catch(ClassNotFoundException e)
-        {
+        catch(ClassNotFoundException e) {
             e.printStackTrace();
         }
-        catch(SQLException e1)
-        {
+        catch(SQLException e1) {
             e1.printStackTrace();
         }
     }
-    public static Connection getInstance()
-    {
+    public static Connection getInstance() {
         if(con==null)
             new DBConnexion();
         return con;
-            
-        
     }
 }

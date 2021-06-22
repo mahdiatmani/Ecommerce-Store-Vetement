@@ -26,7 +26,13 @@ public class Client
     {
     }
 
-  
+    public Client(String login, String mdp, String nom, String prenom)
+    {
+        this.login = login;
+        this.mdp = mdp;
+        this.nom = nom;
+        this.prenom = prenom;
+    }
   
     
     public Client(String login, String mdp, String nom, String prenom, Date dtNaissance)
