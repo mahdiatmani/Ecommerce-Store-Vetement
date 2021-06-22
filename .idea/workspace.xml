@@ -7,17 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402bba61-db56-467d-944b-c5f30ddab227" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/produitImages/car.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ClientDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ClientDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/CompteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/CompteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/registerClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/registerClientServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/store/dao/ClientDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/ClientDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/store/servlets/CompteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/servlets/CompteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/store/servlets/registerClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/servlets/registerClientServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/dao/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/ClientDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/servlets/CompteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/CompteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/servlets/registerClientServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/registerClientServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +201,7 @@
       <workItem from="1624212959169" duration="515000" />
       <workItem from="1624215298454" duration="745000" />
       <workItem from="1624216083043" duration="20095000" />
-      <workItem from="1624393668025" duration="289000" />
+      <workItem from="1624393668025" duration="658000" />
     </task>
     <servers />
   </component>
