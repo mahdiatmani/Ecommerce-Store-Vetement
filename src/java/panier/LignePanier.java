@@ -14,14 +14,12 @@ import entities.Article;
  * @author Walid
  */
 
-public class LignePanier
-{
+public class LignePanier{
 
         private Article article;
         private int quantite;
 
-        public LignePanier(Article art, int qte) 
-        {    
+        public LignePanier(Article art, int qte) {
                 this.article = art;
                 this.quantite = qte;
         }
@@ -43,8 +41,7 @@ public class LignePanier
         }
 
         @Override
-        public boolean equals(Object arg0) 
-        {
+        public boolean equals(Object arg0) {
                 if(arg0 instanceof LignePanier){
                         if(this.article.equals(((LignePanier) arg0).article) && this.quantite ==((LignePanier) arg0).quantite)
                                 return true;
@@ -64,8 +61,5 @@ public class LignePanier
         public String toString() {
                 return "LigneCommande : "+article.toString()+" | "+this.quantite;
         }
-
-
-
 }
 

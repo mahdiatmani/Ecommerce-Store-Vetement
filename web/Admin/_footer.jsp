@@ -1,4 +1,3 @@
-
 <div class="clear">&nbsp;</div>
     
 <!-- start footer -->         
@@ -9,7 +8,6 @@
 	<!--  end footer-left -->
 	<div class="clear">&nbsp;</div>
 </div>
-<!-- end footer -->
- 
+<!-- end footer --> 
 </body>
 </html>

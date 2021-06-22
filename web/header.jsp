@@ -36,21 +36,16 @@
     <!-- end div #Logo -->
     <div id="TopContent">
       <ul>
-<% 
-if(session.getAttribute("panier") == null )
-{
+<%
+if(session.getAttribute("panier") == null ) {
     session.setAttribute("panier", new Panier());
 }
 
 Panier panier = (Panier)session.getAttribute("panier");
-
 double prixT = 0 ;
 
 for(LignePanier lp : panier.getLignesPanier())
-    prixT += lp.getQuantite()*lp.getArticle().getPrix();
-
-
-%>
+    prixT += lp.getQuantite()*lp.getArticle().getPrix(); %>
 
         <li class="cart"><a href="panier.jsp">Panier d'Achat</a></li>
         <li class="cart-value">
@@ -60,12 +55,12 @@ for(LignePanier lp : panier.getLignesPanier())
     <!-- end div #TopContent -->
     <div id="Nav">
       <div class="NavBody">
-        <ul>
+        <ul >
             <li> <a href="index.jsp">Accueil</a></li>
             <li> <a href="produits.jsp">Nos Produits</a></li>
-
             <li> <a href="mon_compte.jsp">Mon Compte</a></li>
           <li> <a href="contactez-nous.jsp">Contactez Nous</a></li>
+            <li> <a href="Admin/login.jsp">Admin Login</a></li>
           <li class="search">
               <form action="produits.jsp" method="GET">
                 <input type="image" class="action" src="images/search-action.jpg" />
@@ -82,7 +77,6 @@ for(LignePanier lp : panier.getLignesPanier())
   <!-- BEGIN CONTENT -->
   <div id="Content">
     <div class="LeftSide">
-        
         <!-- Connexion DIV -->
         <% if(session.getAttribute("client") == null){ %>
             <div class="leftBox">
@@ -90,46 +84,30 @@ for(LignePanier lp : panier.getLignesPanier())
               <div class="leftBoxBody">
               <form method="GET" action="ConnexionServlet">
               <ul class="cat-link" style="margin-top:-20px">
-                  <li>
-                      Login : <input type="text" name="login" style=" width:100%" />
-                  </li>
-                  <li>
-                      Mdp : 	<input type="password" name="mdp" style="width:100%" />
-                  </li>
+                  <li> Login : <input type="text" name="login" style=" width:100%" /> </li>
+                  <li> Mdp : 	<input type="password" name="mdp" style="width:100%" /> </li>
                   </ul>
                   <a href="#" style="margin:5px"> S'inscrire..</a>
                  <input style="margin-left:20px;margin-right:-20px;" type="submit" value="Valider" />
                       </form>
-
               </div>
             </div>
         <% }else{ %>
             <div class="leftBox">
                 <h3>Bienvenu</h3>
-              <div class="leftBoxBody">
+
+                <div class="leftBoxBody">
                   <p style="margin-top: -15px; margin-left: -10px ">Bienvenu <b> <%= ((Client)session.getAttribute("client")).getNom()  %></b></p>
               <ul class="cat-link" >
-                  <li>
-                      <a href="mon_compte.jsp"> Mon Compte </a>
-                  </li>
-                  <li>
-                      <a href="panier.jsp"> Panier </a>
-                  </li>
-                  <li>
-                      <a href="mescommandes.jsp"> Mes Commandes </a>
-                  </li>
-                  <li>
-                      <a href="DeconnexionServlet"> Deconnexion.. </a>
-                  </li>
+                  <li> <a href="mon_compte.jsp"> Mon Compte </a> </li>
+                  <li> <a href="panier.jsp"> Panier </a> </li>
+                  <li> <a href="mescommandes.jsp"> Mes Commandes </a> </li>
+                  <li> <a href="DeconnexionServlet"> Deconnexion.. </a> </li>
                   </ul>
-
               </div>
             </div>
         <% } %>
-      
-      
-      
-      
+
       <div class="leftBox">
         <h3>Produits Aléatoires</h3>
         <div class="leftBoxBody">
@@ -152,8 +130,7 @@ for(LignePanier lp : panier.getLignesPanier())
           <div class="clr"></div>
         </div>
       </div>
-      
-      
+
       <div class="cards">
         <ul>
           <li><a href="#"><img src="images/paypal.gif" alt="" /></a></li>

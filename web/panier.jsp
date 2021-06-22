@@ -6,10 +6,7 @@
 <%@page import="dao.ArticleDao"%>
 <%@include file="header.jsp" %>
 
-
-
-<div class="RightSide">     
-
+<div class="RightSide">
     <div class="bredCrum">
         <h4><a href="index.html">Accueil</a>   >>  <a href="#" class="select"> Votre Panier d'achat  </a> </h4>
     </div>
@@ -24,15 +21,11 @@
             </ul>
             <div class="clr"></div>
         </div>
-
-<%
-int i = 0 ;
-
-for(LignePanier lp : panier.getLignesPanier())
-{
-    i++;
-%>
-        
+        <%
+          int i = 0 ;
+        for(LignePanier lp : panier.getLignesPanier()){
+            i++;
+        %>
         <div class="proList">
             <ul>
                 <li class="number"> <%= i %>. </li>
@@ -57,8 +50,6 @@ for(LignePanier lp : panier.getLignesPanier())
                 <li class="total">$<%= lp.getArticle().getPrix()* lp.getQuantite() %>
                     <span><a href="PanierServlet?op=rem&sender=panier.jsp&id=<%= lp.getArticle().getIdArticle() %>" title="Remove"><img src="images/cross.gif" alt="Remove"/></a></span>
                 </li>
-                
-                
             </ul>
             <div class="clr"></div>
         </div>
@@ -72,22 +63,16 @@ for(LignePanier lp : panier.getLignesPanier())
         <div class="clr"></div>
     </div>
 
-
     <div class="clr"></div>
     <div class="paging">
         
         <% 
-        if(panier.getLignesPanier().size() > 0)
-        {
+        if(panier.getLignesPanier().size() > 0) {
         %>
         <div class="pagingDiv"><a href="CommanderServlet" title="Check Out"><img src="images/checkOutBtn.gif" alt="Check Out"/></a></div>
         <%}%>
-        
         <div class="pagingInfo"><h4><a href="produits.jsp" title="CONTINUE SHOPPING">CONTINUER</a></h4></div>
         <div class="clr"></div> 
     </div>
-</div>    
-
-
-
+</div>
 <%@include file="footer.jsp" %>

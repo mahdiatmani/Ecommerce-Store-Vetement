@@ -91,7 +91,7 @@ img {
 	background:url(../images/nav-bg.gif) repeat-x;
 	height:40px;
 	overflow:hidden;
-	margin:0 16px;
+	margin:0 2px;
 	position:relative;
 	top:102px;
 }
@@ -100,9 +100,13 @@ img {
 	height:40px;
 }
 #Nav ul {
-	height:40px;
-	background:url(../images/nav-lft.gif) no-repeat 5px top;
-	margin:0 0 0 -5px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	position: sticky;
+	top: 0;
+	height:60px;
 }
 #Nav ul li {
 	float:left;
@@ -113,7 +117,7 @@ img {
 	background:url(../images/nav-sep.gif) no-repeat right top;
 }
 #Nav ul li a {
-	color:#000000;
+	color: #fffefe;
 	margin:0 25px;
 }
 #Nav ul li.search {
@@ -122,15 +126,15 @@ img {
 	height:26px;
 	width:195px;
 	margin-top:7px;
-	margin-right:10px;
-	padding-left:10px;
+	margin-right:30px;
+	padding-left:40px;
 	line-height:26px;
 }
 #Nav ul li.search input.searchfeild {
 	background:none;
 	border:none;
-	color:#787878;
-	font-size:11px;
+	color: #030303;
+	font-size:12px;
 	margin-top:8px;
 	width:154px;
 	float:left;
@@ -185,7 +189,7 @@ img {
 	font-size:11px;
 }
 .leftBox .cat-link li a:hover, .leftBox .cat-link li a.active {
-	color:#007CF9;
+	color: #84b6ea;
 	text-decoration:none;
 }
 .sellerlist {
@@ -437,6 +441,7 @@ img {
 .proList ul li.proName * {
 	color:#3f9fff;
 }
+
 .proList ul li.priceHead {
 	width:82px;
 	color:#333333;
@@ -444,6 +449,7 @@ img {
 	height:60px;
 	font-weight:bold;
 }
+
 .proList ul li.quanitity {
 	width:85px;
 }
@@ -454,7 +460,7 @@ img {
 	margin-right:2px;
 }
 .proList ul li.quanitity .box {
-	background:#f0f0f0;
+	background: #a7a7a7;
 	width:45px;
 	line-height:60px;
 	text-align:center;
@@ -467,7 +473,7 @@ img {
 	height:60px;
 	position:relative;
 	font-weight:bold;
-	color:#000000;
+	color: #000000;
 }
 .proList ul li.total span {
 	position:absolute;
@@ -521,8 +527,6 @@ img {
 }
 
 /* END FOOTER */
-
-
 .login{
 width: 100% ; height: 30px;background-color: beige; margin: 5px 0px; border-radius: 5px ;vertical-align: central;
 }
