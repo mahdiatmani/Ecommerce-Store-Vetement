@@ -12,9 +12,7 @@
 <!-- start content -->
 <div id="content">
 
-
 <div id="page-heading"><h1>Ajout d'un Article</h1></div>
-
 
 <table border="0" width="100%" cellpadding="0" cellspacing="0" id="content-table">
 <tr>
@@ -33,15 +31,14 @@
 	<table border="0" width="100%" cellpadding="0" cellspacing="0">
 	<tr valign="top">
 	<td>
-	
-	
+
 		<!--  start step-holder -->
 		<div id="step-holder">
 			<div class="step-no"> - </div>
-			<div class="step-dark-left"><a href="">Détails d'un article</a></div>
+			<div class="step-dark-left"><a href="">DÃ©tails d'un article</a></div>
 			<div class="step-dark-right">&nbsp;</div>
 			<div class="step-no-off"> # </div>
-			<div class="step-light-left">Veillez saisir les détails </div>
+			<div class="step-light-left">Veillez saisir les dÃ©tails </div>
 			<div class="step-light-right">&nbsp;</div>
 			
 		</div>
@@ -80,17 +77,13 @@
 		 <tr>
 			<th valign="top">Quantite</th>
                         <td><input name="quantite" required type="text" class="inp-form"  /></td>
-<!--			-error
-                        <td>
+			 <!---error
+            <td>
 			<div class="error-left"></div>
 			<div class="error-inner">This field is required.</div>
 			</td>-->
                          <td></td>
 		</tr>
-		
-		
-		
-		
 		<tr>
 		<th valign="top">Date :</th>
 		<td class="noheight">
@@ -154,14 +147,12 @@
 				<td>
 					<select name="date_a" id="y"  class="styledselect-year">
                                                 <% 
-                                                    for(int i = 1900; i < 2014; i ++)
+                                                    for(int i = 1900; i < 2060; i ++)
                                                     {
                                                 %>    
                                                     <option value="<%= i %>"><%= i %></option>
                                                     
                                                 <% } %>
-                                                
-						
 					</select>
 					
 				</td>
@@ -172,29 +163,22 @@
 		</td>
 		<td></td>
 	</tr>
-	
-        
-        
-        
+
 	<tr>
 	<th>URL Image :</th>
         <td><input name="urlImage" placeholder="" type="text" class=""  style="border-style: inset; width: 318px; height: 20px;"/></td>
 	<td>
-	
 	</td>
 	</tr>
-	
         <tr>
 	<th>Description :</th>
         <td>
             <textarea name="desc" rows="" cols="" class="form-textarea"> </textarea>
         </td>
 	<td>
-	
 	</td>
 	</tr>
-        
-        
+
 	<tr>
 		<th>&nbsp;</th>
 		<td valign="top">
@@ -206,12 +190,8 @@
 	</table>
 	<!-- end id-form  -->
         </form>
-                
 	</td>
 	<td>
-
-	
-
 </td>
 </tr>
 <tr>
@@ -221,7 +201,6 @@
 </table>
  
 <div class="clear"></div>
- 
 
 </div>
 <!--  end content-table-inner  -->
@@ -234,7 +213,6 @@
 	<th class="sized bottomright"></th>
 </tr>
 </table>
-
 
 <div class="clear">&nbsp;</div>
 

@@ -1,31 +1,22 @@
-
 <%@page import="java.util.Calendar"%>
 <%@page import="entities.Article"%>
 <%@page import="java.util.Vector"%>
 <%@page import="dao.ArticleDao"%>
 <%@include file="header.jsp" %>
 
-
 <div class="RightSide" >
-
-
     <form action="registerClientServlet" method="post" >
-
         <center>
             <table style="padding-top: 100px;">
                 <tr>
                     <td>login : </td>
                     <td><input name="login" value="" > </td>
 
-
-
                 </tr>
-
                 <tr>
                     <td>Nom : </td>
                     <td><input name="nom" value="" > </td>
                 </tr>
-
                 <tr>
                     <td>Prenom : </td>
                     <td><input name="prenom" value=""></td>
@@ -48,7 +39,5 @@
             </table>
         </center>
     </form>
-
 </div>
-
 <%@include file="footer.jsp" %>

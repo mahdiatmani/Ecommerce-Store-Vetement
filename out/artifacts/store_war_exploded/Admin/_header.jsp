@@ -1,6 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -30,7 +29,6 @@ $(function(){
 </script>  
 
 <![if !IE 7]>
-
 <!--  styled select box script version 1 -->
 <script src="js/jquery/jquery.selectbox-0.5.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -38,7 +36,6 @@ $(document).ready(function() {
 	$('.styledselect').selectbox({ inputClass: "selectbox_styled" });
 });
 </script>
- 
 
 <![endif]>
 
@@ -92,15 +89,12 @@ $(function() {
 });
 </script> 
 
-
 <!--  date picker script -->
 <link rel="stylesheet" href="css/datePicker.css" type="text/css" />
 <script src="js/jquery/date.js" type="text/javascript"></script>
 <script src="js/jquery/jquery.datePicker.js" type="text/javascript"></script>
 <script type="text/javascript" charset="utf-8">
-        $(function()
-{
-
+        $(function() {
 // initialise the "Select date" link
 $('#date-pick')
 	.datePicker(
@@ -113,8 +107,7 @@ $('#date-pick')
 	).bind(
 		// when the link is clicked display the date picker
 		'click',
-		function()
-		{
+		function() {
 			updateSelects($(this).dpGetSelected()[0]);
 			$(this).dpDisplay();
 			return false;
@@ -122,43 +115,38 @@ $('#date-pick')
 	).bind(
 		// when a date is selected update the SELECTs
 		'dateSelected',
-		function(e, selectedDate, $td, state)
-		{
+		function(e, selectedDate, $td, state) {
 			updateSelects(selectedDate);
 		}
 	).bind(
 		'dpClosed',
-		function(e, selected)
-		{
+		function(e, selected) {
 			updateSelects(selected[0]);
 		}
 	);
 	
-var updateSelects = function (selectedDate)
-{
-	var selectedDate = new Date(selectedDate);
-	$('#d option[value=' + selectedDate.getDate() + ']').attr('selected', 'selected');
-	$('#m option[value=' + (selectedDate.getMonth()+1) + ']').attr('selected', 'selected');
-	$('#y option[value=' + (selectedDate.getFullYear()) + ']').attr('selected', 'selected');
-}
-// listen for when the selects are changed and update the picker
-$('#d, #m, #y')
+    var updateSelects = function (selectedDate) {
+	  var selectedDate = new Date(selectedDate);
+	  $('#d option[value=' + selectedDate.getDate() + ']').attr('selected', 'selected');
+	  $('#m option[value=' + (selectedDate.getMonth()+1) + ']').attr('selected', 'selected');
+	  $('#y option[value=' + (selectedDate.getFullYear()) + ']').attr('selected', 'selected');
+    }
+    // listen for when the selects are changed and update the picker
+    $('#d, #m, #y')
 	.bind(
 		'change',
-		function()
-		{
+		function() {
 			var d = new Date(
 						$('#y').val(),
 						$('#m').val()-1,
-						$('#d').val()
-					);
+						$('#d').val());
 			$('#date-pick').dpSetSelected(d.asString());
 		}
 	);
 
-// default the position of the selects to today
-var today = new Date();
-updateSelects(today.getTime());
+    // default the position of the selects to today
+    var today = new Date();
+    updateSelects(today.getTime());
 
 // and update the datePicker to reflect it...
 $('#d').trigger('change');
@@ -241,7 +229,7 @@ $(document).pngFix( );
                         
 			<div class="clear">&nbsp;</div>
 		
-			<!--  start account-content -->	
+			<!--  start account-content -->
 <!--			<div class="account-content">
 			<div class="account-drop-inner">
 				<a href="" id="acc-settings">Settings</a>
@@ -259,18 +247,13 @@ $(document).pngFix( );
 				<a href="" id="acc-stats">Statistics</a> 
 			</div>
 			</div>
-			<!--  end account-content -->
+			 end account-content -->
 		
 		</div>
 		<!-- end nav-right -->
-
-
 		<!--  start nav -->
 		<div class="nav">
 		<div class="table">
-		
-		
-		
 		<div class="nav-divider">&nbsp;</div>
 		                    
                 <ul class="select"><li><a href="ProduitListe.jsp"><b>Articles</b><!--[if IE 7]><!--></a><!--<![endif]-->
@@ -279,15 +262,12 @@ $(document).pngFix( );
 			<ul class="sub">
                             <li><a href="ProduitListe.jsp">Liste des Articles</a></li>
                             <li><a href="ArticleAjouter.jsp">Ajouter un Article</a></li>
-				
 			</ul>
 		</div>
 		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
 		</li>
 		</ul>
-		
 		<div class="nav-divider">&nbsp;</div>
-		
                 <ul class="select"><li><a href="CompteListe.jsp"><b>Comptes</b><!--[if IE 7]><!--></a><!--<![endif]-->
 		<!--[if lte IE 6]><table><tr><td><![endif]-->
 		<div class="select_sub">
@@ -300,21 +280,16 @@ $(document).pngFix( );
 		</ul>
 		
 		<div class="nav-divider">&nbsp;</div>
-		
                 <ul class="select"><li><a href="CommandeListe.jsp"><b>Commandes</b><!--[if IE 7]><!--></a><!--<![endif]-->
 		<!--[if lte IE 6]><table><tr><td><![endif]-->
 		<div class="select_sub">
 			<ul class="sub">
 				<li><a href="CommandeListe.jsp">Liste des commande</a></li>
-				
 			</ul>
 		</div>
 		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
 		</li>
 		</ul>
-		
-		
-		
 		<div class="clear"></div>
 		</div>
 		<div class="clear"></div>

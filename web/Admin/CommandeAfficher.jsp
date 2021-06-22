@@ -1,4 +1,3 @@
-
 <%@page import="entities.LigneCommande"%>
 <%@page import="dao.LigneCommandeDao"%>
 <%@page import="entities.Client"%>
@@ -53,7 +52,7 @@
                             <div id="message-green">
                                 <table border="0" width="100%" cellpadding="0" cellspacing="0">
                                     <tr>
-                                        <td class="green-left">Mise a jour effectué avec succes ! :D </td>
+                                        <td class="green-left">Mise a jour effectuï¿½ avec succes ! :D </td>
                                         <td class="green-right"><a class="close-green"><img src="images/table/icon_close_green.gif"   alt="" /></a></td>
                                     </tr>
                                 </table>
@@ -69,7 +68,7 @@
                             <div id="message-red">
                                 <table border="0" width="100%" cellpadding="0" cellspacing="0">
                                     <tr>
-                                        <td class="red-left">Error. <a href="FilmAjouter.jsp">Veillez réessayer !</a></td>
+                                        <td class="red-left">Error. <a href="FilmAjouter.jsp">Veillez rï¿½essayer !</a></td>
                                         <td class="red-right"><a class="close-red"><img src="images/table/icon_close_red.gif"   alt="" /></a></td>
                                     </tr>
                                 </table>

@@ -1,4 +1,3 @@
-
 <%@page import="java.util.Calendar"%>
 <%@page import="entities.Article"%>
 <%@page import="java.util.Vector"%>
@@ -7,13 +6,10 @@
 <title> Vet Estore </title>
 <div class="RightSide">
     <div class="bredCrum">
-        <h4><a href="index.html">Accueil</a>   >>   <a href="#" class="select">Contactez Nous //Non fonctionnel.. :( </a> </h4>
+        <h4><a href="index.html">Accueil</a>   >>   <a href="#" class="select">Contactez Nous :( </a> </h4>
     </div>
-    
-    
-    
-        
-    <form style=" padding: 180px; padding-top:50px;" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<form style=" padding: 180px; padding-top:50px;" id="contact_form" action="#" method="POST" enctype="
+    multipart/form-data">
 	<div class="row">
 		<label for="name">Nom :</label><br />
 		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
@@ -27,12 +23,6 @@
 		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
 	</div>
 	<input id="submit_button" type="submit" value="Envoyer" />
-</form>				
-        
-        
-    
-    
-    
+</form>
 </div>
-
 <%@include file="footer.jsp" %>

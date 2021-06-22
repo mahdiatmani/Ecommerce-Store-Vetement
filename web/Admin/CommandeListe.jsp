@@ -1,4 +1,3 @@
-
 <%@page import="entities.Commande"%>
 <%@page import="java.util.Vector"%>
 <%@page import="dao.CommandeDao"%>
@@ -8,7 +7,6 @@
             response.sendRedirect("login.jsp");
         }
 %>
-
 
 <%@include file="_header.jsp" %>
 
@@ -64,7 +62,7 @@
 				<div id="message-red">
 				<table border="0" width="100%" cellpadding="0" cellspacing="0">
 				<tr>
-                                    <td class="red-left">Error. <a href="FilmAjouter.jsp">Veillez réessayer !</a></td>
+                                    <td class="red-left">Error. <a href="FilmAjouter.jsp">Veillez rï¿½essayer !</a></td>
 					<td class="red-right"><a class="close-red"><img src="images/table/icon_close_red.gif"   alt="" /></a></td>
 				</tr>
 				</table>
