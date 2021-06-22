@@ -29,6 +29,7 @@ public class registerClientServlet extends HttpServlet {
 
         if (dao.add(c))
         {
+
             response.sendRedirect("index.jsp?add=success");
 
             request.getSession().setAttribute("client", c);
