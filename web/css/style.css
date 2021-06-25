@@ -146,16 +146,16 @@ img {
 #Nav ul li.search {
 	background:url(../images/searchbg.gif) no-repeat;
 	float:right;
-	height:26px;
-	width:195px;
+	height:30px;
+	width:200px;
 	margin-top:7px;
 	margin-right:40px;
-	padding-left: 5px ;
+	padding-left: 9px ;
 	line-height:26px;
 }
 #Nav ul li.search input.searchfeild {
-	background:none;
-	border:none;
+	background:#FFFFFF;
+	border:gray;
 	color: #030303;
 	font-size:12px;
 	margin-top:8px;

@@ -10,7 +10,7 @@
             <table style="padding-top: 100px;">
                 <tr>
                     <td>login : </td>
-                    <td><input name="login" value="" > </td>
+                    <td><input  name="login" value="" > </td>
 
                 </tr>
                 <tr>
@@ -29,10 +29,10 @@
 
                 <tr>
                     <td>
-                        <input type="submit" value="valider">
+                        <input class="inpute" type="submit" value="valider">
                     </td>
                     <td>
-                        <input type="reset" value="Annuler">
+                        <input class="inpute" type="reset" value="Annuler">
                     </td>
                 </tr>
 
