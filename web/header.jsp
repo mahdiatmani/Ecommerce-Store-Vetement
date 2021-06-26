@@ -32,6 +32,7 @@
       <h1><a href="index.jsp">
           <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
           <img height="100" src="images/logo2.png" alt="OXO" /></a>
+
       </h1>
     </div>
     <!-- end div #Logo -->
