@@ -63,6 +63,29 @@ img {
 #TopContent li {
 	float:right;
 }
+.notification {
+	background-color: #000000;
+	color: white;
+	text-decoration: none;
+	padding: 10px 26px;
+	position: relative;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+.notification:hover {
+	background: gray;
+}
+
+.notification .badge {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 5px 10px;
+	border-radius: 100%;
+	background-color: #ff0000;
+	color: white;
+}
 #TopContent li.cart {
 	background:url(../images/OXO---Homepage_14.gif);
 	width:124px;
@@ -76,7 +99,7 @@ img {
 }
 #TopContent li.cart-value {
 	padding-top:8px;
-	padding-right:10px;
+	padding-right:5px;
 }
 #TopContent li span {
 	margin:0 10px;

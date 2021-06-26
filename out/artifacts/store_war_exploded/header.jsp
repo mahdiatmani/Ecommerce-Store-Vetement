@@ -47,9 +47,12 @@ double prixT = 0 ;
 for(LignePanier lp : panier.getLignesPanier())
     prixT += lp.getQuantite()*lp.getArticle().getPrix(); %>
 
-        <li class="cart"><a href="panier.jsp">Panier d'Achat</a></li>
+
+        <li class="notification"><a href="panier.jsp">Panier d'Achat
+            <span class="badge"><%= panier.getNumberArticle() %></span>
+        </a></li>
         <li class="cart-value">
-            <span class="blue"><a href="panier.jsp"><%= panier.getNumberArticle() %> produits</a></span> | <span>$<%= prixT %> </span></li>
+            <span class="blue"><a href="panier.jsp"><%= panier.getNumberArticle() %> produits</a></span> |  <img src="images/dollar-currency-symbol.png"> <b> <span style=font-size:150%;"><%= prixT %></span></b></li>
       </ul>
     </div>
     <!-- end div #TopContent -->
@@ -124,8 +127,8 @@ for(LignePanier lp : panier.getLignesPanier())
                     <p><a href="article.jsp?id=<%= a.getIdArticle() %>"><%= a.getLibelle() + " <br> <b>" + a.getPrix() + "$</b>" %></a></p>
                     <div class="clr"></div>
                 </li>
-            <% 
-                } 
+            <%
+                }
             %>
           </ul>
           <div class="clr"></div>

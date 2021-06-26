@@ -4,6 +4,7 @@
   <%@page import="dao.ArticleDao"%>
   <%@include file="header.jsp" %>
 
+
   <title> Vet Estore </title>
    <div class="RightSide">
     <%
@@ -72,7 +73,7 @@
             </div>
             <div class="catDetail">
               <h4><a href="article.jsp?id=<%= articles.get(i).getIdArticle() %>"><%= articles.get(i).getLibelle() %> </a></h4>
-              <p><%= articles.get(i).getPrix() %>$</p>
+              <p><%= articles.get(i).getPrix() %></p>
             </div>
           </li>
           <% } %>

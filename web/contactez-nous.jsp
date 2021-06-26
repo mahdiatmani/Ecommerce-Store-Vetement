@@ -6,7 +6,7 @@
 <title> Vet Estore </title>
 <div class="RightSide">
     <div class="bredCrum">
-        <h4><a href="index.html">Accueil</a>   >>   <a href="#" class="select">Contactez Nous //Non fonctionnel.. :( </a> </h4>
+        <h4><a href="index.html">Accueil</a>   >>   <a href="#" class="select">Contactez Nous :( </a> </h4>
     </div>
 	<form style=" padding: 180px; padding-top:50px;" id="contact_form" action="#" method="POST" enctype="
     multipart/form-data">
