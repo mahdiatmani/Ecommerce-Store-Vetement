@@ -25,22 +25,18 @@ if(client == null) {
                     <input type="hidden" name="login" value="<%= client.getLogin()%>" >
                 </td>
             </tr>
-
             <tr>
                 <td>Nom : </td>
                 <td><input name="nom" value="<%= client.getNom() %>" > </td>
             </tr>
-            
             <tr>
                 <td>Prenom : </td>
                 <td><input name="prenom" value="<%= client.getPrenom()%>"></td>
             </tr>
-            
             <tr>
                 <td>Mdp : </td>
                 <td><input type="password" name="mdp" value="<%= client.getMdp() %>"></td>
             </tr>
-            
             <tr>
                 <td>
                     <input type="submit" value="Modifier">
@@ -49,10 +45,8 @@ if(client == null) {
                     <input type="reset" value="Annuler">
                 </td>
             </tr>
-            
     </table>
     </center>
     </form>
 </div>
-
 <%@include file="footer.jsp" %>

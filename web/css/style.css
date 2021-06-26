@@ -162,15 +162,17 @@ img {
 	margin-bottom:25px;
 }
 .leftBox h3 {
-	background: #2a2a2a;
-	height:30px;
-	padding:8px 4px;
-	font-size:14px;
-	padding-left:42px;
+	border: 2px solid #2d2d2d;
+	border-radius: 25px 25px 0 0;
+	background: #2d2d2d;
+	height:15px;
+	padding:8px 2px;
+	font-size:15px;
+	color: #f8faf8;
+	padding-left:40px;
 }
 .leftBox h3 span {
 	padding-top:8px;
-	
 }
 .leftBox .leftBoxBody {
 	padding:10px 20px;

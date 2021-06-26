@@ -30,7 +30,7 @@
   <div id="Top">
     <div id="Logo">
       <h1><a href="index.jsp">
-              <img height="79" src="images/logo-big-shopping.png" alt="OXO" /></a>
+              <img height="79" src="images/Capture.PNG" alt="Cap" /></a>
       </h1>
     </div>
     <!-- end div #Logo -->
