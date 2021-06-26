@@ -30,7 +30,8 @@
   <div id="Top">
     <div id="Logo">
       <h1><a href="index.jsp">
-              <img height="79" src="images/logo-big-shopping.png" alt="OXO" /></a>
+          <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+          <img height="100" src="images/logo2.png" alt="OXO" /></a>
       </h1>
     </div>
     <!-- end div #Logo -->

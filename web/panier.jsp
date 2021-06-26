@@ -69,8 +69,11 @@
         <% 
         if(panier.getLignesPanier().size() > 0) {
         %>
+
         <div class="pagingDiv"><a href="CommanderServlet" title="Check Out"><img src="images/checkOutBtn.gif" alt="Check Out"/></a></div>
+
         <%}%>
+        
         <div class="pagingInfo"><h4><a href="produits.jsp" title="CONTINUE SHOPPING">CONTINUER</a></h4></div>
         <div class="clr"></div> 
     </div>

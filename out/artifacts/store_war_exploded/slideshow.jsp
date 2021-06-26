@@ -6,15 +6,15 @@
               <a href="#">
                   <img src="js/images/E-commerce.jpg" alt="" width="693" height="256" />
               </a><span class="slide_caption"> 
-                  <a href="#" class="title">E-Commerce MiniProjet..</a> 
-                  Mini projet E-Commerce, r�aliser par Islem Ay�ch & Walid Sakhana</span>
+                  <a href="#" class="title">E-Commerce MiniProjet.</a>
+                  Mini projet E-Commerce realiser par atiqa , oumaima , mohamed , mahdi.</span>
           </li>
           <li style="position: absolute; top: 0px; left: 0px; display: list-item; z-index: 3;">
               <a href="#">
-                  <img src="js/images/java-logo.png" alt="" width="693" height="256" />
+                  <img src="js/images/slide.gif" alt="" width="693" height="256" />
               </a><span class="slide_caption"> 
                   <a href="#" class="title">Java Entreprise Edition</a> 
-                  Ce projet est r�alis� avec en JEE..</span>
+                  Ce projet est realiser avec en JEE..</span>
           </li>
 
           <li style="position: absolute; top: 0px; left: 0px; display: list-item; z-index: 4;">
@@ -22,14 +22,14 @@
                   <img src="js/images/E-commerce.jpg" alt="" width="693" height="256" />
               </a><span class="slide_caption"> 
                   <a href="#" class="title">E-Commerce MiniProjet..</a> 
-                  Mini projet E-Commerce, r�aliser par Islem Ay�ch & Walid Sakhana</span>
+                  Mini projet E-Commerce realiser par atiqa , oumaima , mohamed , mahdi.</span>
           </li>
           <li style="position: absolute; top: 0px; left: 0px; display: list-item; z-index: 3;">
               <a href="#">
                   <img src="js/images/java-logo.png" alt="" width="693" height="256" />
               </a><span class="slide_caption"> 
                   <a href="#" class="title">Java Entreprise Edition</a> 
-                  Ce projet est r�alis� avec en JEE..</span>
+                  Ce projet est realiser avec en JEE..</span>
           </li>
 
         </ul>

@@ -8,6 +8,7 @@
         <servlet-name>DeconnexionServlet</servlet-name>
         <servlet-class>servlets.DeconnexionServlet</servlet-class>
     </servlet>
+
     <servlet>
         <servlet-name>PanierServlet</servlet-name>
         <servlet-class>servlets.PanierServlet</servlet-class>
@@ -100,6 +101,17 @@
         <servlet-name>registerClientServlet</servlet-name>
         <url-pattern>/registerClientServlet</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>paymentSendServlet</servlet-name>
+        <servlet-class>servlets.paymentSendServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>paymentSendServlet</servlet-name>
+        <url-pattern>/paymentSendServlet</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>LogoutServelet</servlet-name>
         <url-pattern>/LogoutServelet</url-pattern>
