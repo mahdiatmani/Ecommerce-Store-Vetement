@@ -64,6 +64,27 @@
 			</td>-->
                             <td></td>
 		</tr>
+			<tr>
+				<th valign="top">Ctegorie</th>
+				<td><select id="categorie" name="categorie"  >
+					<option value="1">
+						Vêtements
+					</option>
+					<option value="2" >
+						Chaussures
+					</option>
+					<option value="3" >
+						Accessoires
+					</option>
+
+					</select></td>
+				<!--		-error
+                                        <td>
+                            <div class="error-left"></div>
+                            <div class="error-inner">This field is required.</div>
+                            </td>-->
+				<td></td>
+			</tr>
                 <tr>
 			<th valign="top">Prix</th>
                         <td><input name="prix" required type="text" class="inp-form"  /></td>

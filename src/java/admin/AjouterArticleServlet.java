@@ -40,7 +40,7 @@ public class AjouterArticleServlet extends HttpServlet {
             String desc = request.getParameter("desc");
             Double prix = Double.parseDouble(request.getParameter("prix"));
             int quantite=Integer.parseInt(request.getParameter("quantite"));
-            
+            int categorie = Integer.parseInt(request.getParameter("categorie")) ;
             int a = Integer.parseInt(request.getParameter("date_a"));
             int m = Integer.parseInt(request.getParameter("date_m"));;
             int j = Integer.parseInt(request.getParameter("date_j"));;
@@ -51,7 +51,7 @@ public class AjouterArticleServlet extends HttpServlet {
             
             int age = 2014 - a ;
             
-            Article act = new Article(-1, libelle, desc, prix,img, quantite,dt);
+            Article act = new Article(-1, libelle,categorie, desc, prix,img, quantite,dt);
             ArticleDao dao = new ArticleDao();
             
             if(dao.add(act))

@@ -34,11 +34,11 @@ public class ConnexionServlet extends HttpServlet
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
     {
-        String login = request.getParameter("login");
+        String email = request.getParameter("login");
         String mdp = request.getParameter("mdp");
         
         ClientDao dao = new ClientDao();
-        Client c = dao.findByAuthentification(login, mdp);
+        Client c = dao.findByAuthentification(email, mdp);
         
         if(c == null)
         {
