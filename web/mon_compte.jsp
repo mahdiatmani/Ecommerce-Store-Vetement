@@ -34,7 +34,7 @@ if(client == null) {
                 <td><input name="prenom" value="<%= client.getPrenom()%>"></td>
             </tr>
             <tr>
-                <td>Mdp : </td>
+                <td>Mot de passe : </td>
                 <td><input type="password" name="mdp" value="<%= client.getMdp() %>"></td>
             </tr>
             <tr>

@@ -9,8 +9,6 @@
 %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-    
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -30,22 +28,18 @@ $(document).pngFix( );
 });
 </script>
 </head>
-    
-    
+
 <body id="login-bg"> 
- 
-    
-    
-    
+
 <!-- Start: login-holder -->
 <div id="login-holder">
 
 	<!-- start logo -->
         <div id="logo-login" >
-            <a href="index.html"><img style="margin-top: -20px" src="../images/logo-big.png" width="" height="75" alt="" /></a>
+            <a href="index.html"><img style="margin-top: -20px" src="../images/logo2.png" width="" height="75" alt="" /></a>
 	</div>
 	<!-- end logo -->
-	
+
 	<div class="clear"></div>
 	
 	<!--  start loginbox ................................................................................. -->
@@ -75,7 +69,7 @@ $(document).pngFix( );
 	</div>
  	<!--  end login-inner -->
 	<div class="clear"></div>
-	<a href="" class="forgot-pwd">Mot de passe oubliÃ© ? </a>
+	<a href="" class="forgot-pwd">Mot de passe oublié ? </a>
  </div>
             </form>
  <!--  end loginbox -->

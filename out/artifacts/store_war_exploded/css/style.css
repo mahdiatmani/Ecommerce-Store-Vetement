@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-
 /*---------------------------Genrael Clases---------------------------------------*/
-
 body {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
@@ -64,13 +62,13 @@ img {
 	float:right;
 }
 .notification {
-	background-color: #000000;
+	background-color: #3e3e3e;
 	color: white;
 	text-decoration: none;
 	padding: 10px 26px;
 	position: relative;
 	display: inline-block;
-	border-radius: 2px;
+	border-radius: 10px 10px 10px 10px;
 }
 
 .notification:hover {
@@ -95,20 +93,20 @@ img {
 	font-size:13px;
 	line-height:22px;
 	margin-top:3px;
-	color:#333333;
+	color:#3e3e3e;
 }
 #TopContent li.cart-value {
-	padding-top:8px;
+	padding-top:6px;
 	padding-right:5px;
 }
 #TopContent li span {
 	margin:0 10px;
 }
 #TopContent li .blue {
-	color:#007CF9;
+	color:#f5b907;
 }
 #TopContent li .blue a {
-	color:#007CF9;
+	color:#f5b907;
 }
 #Nav {
 	background:url(../images/nav-bg.gif) repeat-x;
@@ -131,6 +129,19 @@ img {
 	top: 0;
 	height:60px;
 }
+.Ouma{
+	width: 50%;
+}
+.O{
+	width: 110%;
+	margin-bottom: 5PX;
+}
+.bott{
+	height:30px;
+	margin-top: 20PX;
+	width:20px;
+}
+
 #Nav ul li {
 	float:left;
 	height:40px;
@@ -185,14 +196,12 @@ img {
 	margin-bottom:25px;
 }
 .leftBox h3 {
-	border: 2px solid #2d2d2d;
+	border: 2px solid #3e3e3e;
 	border-radius: 25px 25px 0 0;
-	background: #2d2d2d;
-	height:15px;
-	padding:8px 2px;
-	font-size:15px;
+	background: #3e3e3e;
+	font-size:17px;
 	color: #f8faf8;
-	padding-left:40px;
+	padding-top: 15px;
 }
 .leftBox h3 span {
 	padding-top:8px;
@@ -213,7 +222,7 @@ img {
 	font-size:11px;
 }
 .leftBox .cat-link li a:hover, .leftBox .cat-link li a.active {
-	color: #84b6ea;
+	color: #f5b907;
 	text-decoration:none;
 }
 .sellerlist {
@@ -228,7 +237,7 @@ img {
 .sellerlist li span {
 	float:left;
 	width:22px;
-	color:#439CF4;
+	color:#f5b907;
 }
 .sellerlist li p {
 	float:left;
@@ -249,21 +258,21 @@ img {
 	width:695px;
 }
 .RightSide .bredCrum {
-	margin-bottom:15px;
-	padding-bottom:15px;
+	margin-bottom:20px;
+	padding-bottom:20px;
 	border-bottom:#dedede solid 1px;
-	font-size:18px;
+	font-size:30px;
 	margin-top:-3px;
 }
 .RightSide .bredCrum h4 {
 }
 .RightSide .bredCrum a {
-	color:#666666;
+	color: #3e3e3e;
 	text-decoration:none;
 	margin-right:10px;
 }
 .RightSide .bredCrum a.select, .RightSide .bredCrum a:hover {
-	color:#2b95ff;
+	color:#f5b907;
 	text-decoration:none;
 }
 .catrow {
@@ -293,18 +302,19 @@ img {
 	position:relative;
 }
 .catrow .catDetail {
-	background:url(../images/OXO---Homepage_48.gif) no-repeat left;
+	border-radius:4px 4px 4px 4px ;
+	background: #3e3e3e;
 	height:53px;
 }
 .catrow .catDetail h4 {
-	color:#007CF9;
-	font-size:13px;
+	color:#f5b907;
+	font-size:14px;
 	padding:0 13px;
 	padding-top:8px;
 	margin-bottom:3px;
 }
 .catrow .catDetail h4 a {
-	color:#007CF9;
+	color:#f5b907;
 	text-decoration:none;
 }
 .catrow .catDetail h4 a:hover {
@@ -351,7 +361,7 @@ img {
 	top:5px;
 }
 .pagingDiv b.blue {
-	color:#439CF4;
+	color:#f5b907;
 }
 .productDetial {
 	padding-bottom:15px;
@@ -361,6 +371,7 @@ img {
 	display:block;
 	width:204px;
 	height:53px;
+	margin-top: 40px;
 	background:url(../images/addtoCart.gif) left top no-repeat;
 }
 .productDetial .addToCart:hover {
@@ -393,6 +404,7 @@ img {
 	margin-bottom:15px;
 	font-size:18px;
 }
+
 .detailInfo {
 	line-height:145%;
 }
@@ -404,7 +416,7 @@ img {
 	color:#c3c3c3;
 }
 .price {
-	color:#2b95ff;
+	color:#f5b907;
 	font-size:28px;
 	font-weight:normal;
 }
@@ -458,17 +470,17 @@ img {
 }
 .proList ul li.proName {
 	width:215px;
-	color:#3f9fff;
+	color:#f5b907;
 	line-height:60px;
 	height:60px;
 }
 .proList ul li.proName * {
-	color:#3f9fff;
+	color:#f5b907;
 }
 
 .proList ul li.priceHead {
 	width:82px;
-	color:#333333;
+	color: #3e3e3e;
 	line-height:60px;
 	height:60px;
 	font-weight:bold;
@@ -520,26 +532,29 @@ img {
 	width:206px;
 	text-align:center;
 	float:right;
-	color:#2b95ff;
+	color:#f5b907;
 	font-size:28px;
 }
 /* END RightSide */
 /* START FOOTER */
 #Footer {
 	background:url(../images/footerBg.gif) repeat-x;
-	font-size:11px;
+	font-size:13px;
 }
 #Footer .footerbody {
 	background:url(../images/footer-left.gif) no-repeat left top;
 }
 #Footer .footercontent {
-	background:url(../images/footer-right.gif) no-repeat right top;
-	height:54px;
-	line-height:54px;
-	padding:0 15px;
+	background: #3e3e3e;
+	height:40px;
+	margin-top: 30px;
+	line-height: 42px;
+	margin-right:0px ;
+	margin-left: -13px;
+	width:915px ;
 }
 #Footer .blue {
-	color:#439CF4;
+	color: #f5b907;
 }
 #Footer a {
 	margin:0 15px;
@@ -552,7 +567,7 @@ img {
 
 /* END FOOTER */
 .login{
-width: 100% ; height: 30px;background-color: beige; margin: 5px 0px; border-radius: 5px ;vertical-align: central;
+	width: 100% ; height: 30px;background-color: beige; margin: 5px 0px; border-radius: 5px ;vertical-align: central;
 }
 .intest {
 	width: 100%;
@@ -565,4 +580,3 @@ width: 100% ; height: 30px;background-color: beige; margin: 5px 0px; border-radi
 	outline: none;
 	border: 3px solid #555;
 }
-
