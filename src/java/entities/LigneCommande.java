@@ -7,7 +7,7 @@ package entities;
 
 /**
  *
- * @author Walid
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
  */
 public class LigneCommande
 {

@@ -18,7 +18,7 @@ import panier.Panier;
 
 /**
  *
- * @author Walid
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
  */
 public class PanierServlet extends HttpServlet
 {

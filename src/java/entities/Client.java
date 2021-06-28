@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Walid
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
  */
 public class Client
 {

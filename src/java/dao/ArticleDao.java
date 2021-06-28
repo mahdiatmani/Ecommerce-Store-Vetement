@@ -74,7 +74,7 @@ public class ArticleDao
                     + "`desc`='" + a.getDesc() + "', "
                     + "`prix`='" + a.getPrix() + "', "
                     + "`img`='" + a.getImg() + "', "
-                    + "`qte`='" + a.getQte() + "' "
+                    + "`qte`='" + a.getQte() + "', "
                     + "`idCat`='" + a.getCategorie() + "' "
 
                     + "WHERE `idarticle`='" + a.getIdArticle() + "';";
@@ -270,6 +270,62 @@ public class ArticleDao
         }
 
         return null;
+    }
+
+    public String findCategorie(String lib)
+    {
+        String req = "SELECT categorie " + " FROM categorie WHERE idCat = (select idCat FROM article where libelle = '"+lib+"')";
+
+        String cat = null;
+
+        try
+        {
+            Statement st = con.createStatement();
+            ResultSet rs = st.executeQuery(req);
+
+            if (rs.next())
+            {
+
+               cat = rs.getString(1);
+
+            }
+
+            return cat;
+        } catch (Exception e)
+        {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public int findIDCategorie(String cat)
+    {
+        String req = "SELECT idCat " + " FROM categorie WHERE categorie = '"+cat+"'";
+
+        int idcat = 0;
+
+        try
+        {
+            Statement st = con.createStatement();
+            ResultSet rs = st.executeQuery(req);
+
+            if (rs.next())
+            {
+
+                idcat = rs.getInt(1);
+
+            }
+
+            return idcat;
+        } catch (Exception e)
+        {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return 0;
     }
 
 

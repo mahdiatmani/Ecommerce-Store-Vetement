@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author islem
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
  */
 public class ModifierArticleServlet extends HttpServlet {
 
@@ -49,13 +49,14 @@ public class ModifierArticleServlet extends HttpServlet {
             String img = request.getParameter("urlImage");
             String desc = request.getParameter("desc");
             
-            int age = 2014 - a ;
-            
-            int id = Integer.parseInt(request.getParameter("id"));
-            
-            Article ar = new Article(id, libelle, desc, prix, img, quantite, dt);
+            int age = 2060 - a ;
             ArticleDao dao = new ArticleDao();
-            
+
+            int id = Integer.parseInt(request.getParameter("id"));
+            int idcat = dao.findIDCategorie(request.getParameter("categorie"));
+
+            Article ar = new Article(id, libelle,idcat, desc, prix, img, quantite, dt);
+
             if(dao.update(ar))
             {
                 response.sendRedirect("Admin/ProduitListe.jsp?add=success");
