@@ -58,10 +58,10 @@
 		<!--  start step-holder -->
 		<div id="step-holder">
 			<div class="step-no"> - </div>
-			<div class="step-dark-left"><a href="">Détails d'un article</a></div>
+			<div class="step-dark-left"><a href="">Dï¿½tails d'un article</a></div>
 			<div class="step-dark-right">&nbsp;</div>
 			<div class="step-no-off"> # </div>
-			<div class="step-light-left">Veillez saisir les détails </div>
+			<div class="step-light-left">Veillez saisir les dï¿½tails </div>
 			<div class="step-light-right">&nbsp;</div>
 			
 		</div>
@@ -98,7 +98,17 @@
 			<div class="error-left"></div>
 			<div class="error-inner">This field is required.</div>
 			</td>-->
-		</tr>
+			<% ArticleDao art = new ArticleDao(); %>
+			<tr>
+				<th valign="top">categorie</th>
+				<td><input name="categorie" value="<%= art.findCategorie(f.getLibelle())  %>" required type="text"  class="inp-form" readonly /></td>
+
+				<!--			-error
+                                        <td>
+                            <div class="error-left"></div>
+                            <div class="error-inner">This field is required.</div>
+                            </td>-->
+			</tr>
                 
 		<tr>
 			<th valign="top">Prix</th>
@@ -110,7 +120,7 @@
 			</td>-->
 		</tr>
                 <tr>
-			<th valign="top">Quantité</th>
+			<th valign="top">Quantite</th>
                         <td><input name="quantite" value="<%= f.getQte() %>" required type="text" class="inp-form"  /></td>
 <!--			-error
                         <td>
