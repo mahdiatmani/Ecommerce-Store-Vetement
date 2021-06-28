@@ -11,10 +11,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Vector;
 
-/**
- *
- * @author Walid
- */
+
 public class ArticleDao
 {
 
@@ -24,8 +21,8 @@ public class ArticleDao
     {
         try
         {
-            String req = "INSERT INTO article(`idarticle`, `libelle`, `desc`, `prix`, `img`, `qte`)"
-                    + " VALUES (NULL , '" + a.getLibelle() + "', '" + a.getDesc() + "', '" + a.getPrix() + "', '" + a.getImg() + "', '" + a.getQte() + "');";
+            String req = "INSERT INTO article(`idarticle`, `libelle`, `desc`, `prix`, `img`, `qte`,`idCat`)"
+                    + " VALUES (NULL , '" + a.getLibelle() + "', '" + a.getDesc() + "', '" + a.getPrix() + "', '" + a.getImg() + "', '" + a.getQte() + "','" + a.getCategorie() + "');";
 
             Statement st = con.createStatement();
 
@@ -78,6 +75,8 @@ public class ArticleDao
                     + "`prix`='" + a.getPrix() + "', "
                     + "`img`='" + a.getImg() + "', "
                     + "`qte`='" + a.getQte() + "' "
+                    + "`idCat`='" + a.getCategorie() + "' "
+
                     + "WHERE `idarticle`='" + a.getIdArticle() + "';";
 
             Statement st = con.createStatement();
@@ -113,6 +112,7 @@ public class ArticleDao
             {
                 //Article(int idArticle, String libelle, String desc, double prix, String img, int qte, Date dateAjout)
                 e = new Article(rs.getInt(1), rs.getString(2), rs.getString(3),
+
                         rs.getDouble(4), rs.getString(5), rs.getInt(6),
                         rs.getDate(7));
             }
@@ -145,7 +145,7 @@ public class ArticleDao
                     vect = new Vector<>();
                 }
 
-                Article e = new Article(rs.getInt(1), rs.getString(2), rs.getString(3),
+                Article e = new Article(rs.getInt(1), rs.getString(2),rs.getInt(8), rs.getString(3),
                         rs.getDouble(4), rs.getString(5), rs.getInt(6),
                         rs.getDate(7));
 
@@ -182,7 +182,7 @@ public class ArticleDao
                     vect = new Vector<>();
                 }
 
-                Article e = new Article(rs.getInt(1), rs.getString(2), rs.getString(3),
+                Article e = new Article(rs.getInt(1), rs.getString(2),rs.getInt(8), rs.getString(3),
                         rs.getDouble(4), rs.getString(5), rs.getInt(6),
                         rs.getDate(7));
 
@@ -219,7 +219,7 @@ public class ArticleDao
                     vect = new Vector<>();
                 }
 
-                Article e = new Article(rs.getInt(1), rs.getString(2), rs.getString(3),
+                Article e = new Article(rs.getInt(1), rs.getString(2),rs.getInt(8), rs.getString(3),
                         rs.getDouble(4), rs.getString(5), rs.getInt(6),
                         rs.getDate(7));
 
@@ -235,6 +235,43 @@ public class ArticleDao
 
         return null;
     }
+
+    public Vector<Article> findAllwitCategorie(int cat)
+    {
+        String req = "SELECT* " + " FROM article WHERE idCat = '"+cat+"'";
+
+        Vector<Article> vect = null;
+
+        try
+        {
+            Statement st = con.createStatement();
+            ResultSet rs = st.executeQuery(req);
+
+            while (rs.next())
+            {
+
+                if (vect == null)
+                {
+                    vect = new Vector<>();
+                }
+
+                Article e = new Article(rs.getInt(1), rs.getString(2),rs.getInt(8), rs.getString(3),
+                        rs.getDouble(4), rs.getString(5), rs.getInt(6),
+                        rs.getDate(7));
+
+                vect.add(e);
+            }
+
+            return vect;
+        } catch (Exception e)
+        {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
 
 
 }

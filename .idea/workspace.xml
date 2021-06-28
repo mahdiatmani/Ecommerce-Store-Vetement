@@ -7,16 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402bba61-db56-467d-944b-c5f30ddab227" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Accessoires.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Chaussures.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Vêtements.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ArticleAjouter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ArticleAjouter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/AjouterArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/AjouterArticleServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ClientDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ClientDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/CommandeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/CommandeDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/LigneCommandeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/LigneCommandeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/entities/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/entities/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/entities/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/ConnexionServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/ConnexionServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/mescommandes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/mescommandes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/registerClient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/registerClient.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/AjouterArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/AjouterArticleServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/store/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/ClientDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/ClientDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/store/dao/CommandeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/CommandeDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/store/dao/LigneCommandeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/LigneCommandeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/entities/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/entities/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/entities/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/servlets/ConnexionServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/servlets/ConnexionServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/ArticleDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/dao/CommandeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/CommandeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/dao/LigneCommandeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/LigneCommandeDao.java" afterDir="false" />
@@ -37,8 +52,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,7 +91,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js/images/slide" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -85,10 +100,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\oulma\Desktop\project jee\web" />
+      <recent name="C:\Users\oulma\Desktop\project jee\web\WEB-INF" />
       <recent name="C:\Users\user\Desktop\MiniProjet-JEE-e-Commerce-master\web\js\images\slide" />
       <recent name="C:\Users\oulma\Desktop\project jee\web\produitImages" />
       <recent name="C:\Users\user\Desktop\MiniProjet-JEE-e-Commerce-master\web\produitImages" />
-      <recent name="C:\Users\user\Desktop\MiniProjet-JEE-e-Commerce-master\web\js\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\MiniProjet-JEE-e-Commerce-master\web\images" />

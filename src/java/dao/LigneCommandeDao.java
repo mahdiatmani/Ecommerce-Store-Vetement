@@ -87,7 +87,7 @@ public class LigneCommandeDao
                     vect = new Vector<>();
                 }
 
-                LigneCommande e = new LigneCommande(rs.getInt(1), rs.getInt(2), rs.getInt(3));
+                LigneCommande e = new LigneCommande(rs.getInt(1),rs.getInt(2), rs.getInt(3));
                 
 
                 vect.add(e);

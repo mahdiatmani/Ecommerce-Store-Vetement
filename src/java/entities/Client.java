@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  */
 public class Client
 {
-  private String login ;
+  private String email ;
   private String mdp ;
   private String nom ;
   private String prenom ;
@@ -26,9 +26,9 @@ public class Client
     {
     }
 
-    public Client(String login, String mdp, String nom, String prenom)
+    public Client(String email, String mdp, String nom, String prenom)
     {
-        this.login = login;
+        this.email = email;
         this.mdp = mdp;
         this.nom = nom;
         this.prenom = prenom;
@@ -37,7 +37,7 @@ public class Client
     
     public Client(String login, String mdp, String nom, String prenom, Date dtNaissance)
     {
-        this.login = login;
+        this.email = login;
         this.mdp = mdp;
         this.nom = nom;
         this.prenom = prenom;
@@ -45,9 +45,9 @@ public class Client
     }
 
     
-          public Client(String login, String mdp, String nom, String prenom, Date dtNaissance,int etat)
+          public Client(String email, String mdp, String nom, String prenom, Date dtNaissance,int etat)
     {
-        this.login = login;
+        this.email = email;
         this.mdp = mdp;
         this.nom = nom;
         this.prenom = prenom;
@@ -70,7 +70,7 @@ public class Client
     
     public String getLogin()
     {
-        return login;
+        return email;
     }
 
     public String getMdp()
@@ -93,9 +93,9 @@ public class Client
         return dtNaissance;
     }
 
-    public void setLogin(String login)
+    public void setLogin(String email)
     {
-        this.login = login;
+        this.email = email;
     }
 
     public void setMdp(String mdp)
@@ -122,7 +122,7 @@ public class Client
     public int hashCode()
     {
         int hash = 7;
-        hash = 83 * hash + Objects.hashCode(this.login);
+        hash = 83 * hash + Objects.hashCode(this.email);
         hash = 83 * hash + Objects.hashCode(this.mdp);
         return hash;
     }
@@ -139,7 +139,7 @@ public class Client
             return false;
         }
         final Client other = (Client) obj;
-        if (!Objects.equals(this.login, other.login))
+        if (!Objects.equals(this.email, other.email))
         {
             return false;
         }
@@ -153,7 +153,7 @@ public class Client
     @Override
     public String toString()
     {
-        return "Client{" + "login=" + login + ", mdp=" + mdp + ", nom=" + nom + ", prenom=" + prenom + ", dtNaissance=" + dtNaissance + '}';
+        return "Client{" + "email=" + email + ", mdp=" + mdp + ", nom=" + nom + ", prenom=" + prenom + ", dtNaissance=" + dtNaissance + '}';
     }
   
     

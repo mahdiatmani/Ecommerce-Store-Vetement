@@ -7,14 +7,12 @@ package entities;
 
 import java.util.Date;
 
-/**
- *
- * @author Walid
- */
+
 public class Article
 {
     private int idArticle ;
     private String libelle ;
+    private int categorie;
     private String desc ;
     private double prix ; 
     private String img ;
@@ -25,9 +23,17 @@ public class Article
     {
     }
 
+    public Article(int idArticle, String libelle, int categorie, String desc, double prix, String img, int qte, Date dateAjout) {
+        this.idArticle = idArticle;
+        this.libelle = libelle;
+        this.categorie = categorie;
+        this.desc = desc;
+        this.prix = prix;
+        this.img = img;
+        this.qte = qte;
+        this.dateAjout = dateAjout;
+    }
 
-    
-    
     public Article(String libelle, String desc, double prix, String img, int qte)
     {
         this.libelle = libelle;
@@ -51,8 +57,14 @@ public class Article
         this.dateAjout = dateAjout;
     }
 
-    
-    
+    public int getCategorie() {
+        return categorie;
+    }
+
+    public void setCategorie(int categorie) {
+        this.categorie = categorie;
+    }
+
     public int getIdArticle()
     {
         return idArticle;

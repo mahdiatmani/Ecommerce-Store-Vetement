@@ -103,7 +103,7 @@ for(LignePanier lp : panier.getLignesPanier())
                 <h3>Bienvenu</h3>
 
                 <div class="leftBoxBody">
-                  <p style="margin-top: -15px; margin-left: -10px ">Bienvenu <b> <%= ((Client)session.getAttribute("client")).getNom()  %></b></p>
+                  <p style=" margin-left: -10px ">Bienvenu <b> <%= ((Client)session.getAttribute("client")).getNom()  %></b></p>
               <ul class="cat-link" >
                   <li> <a href="mon_compte.jsp"> Mon Compte </a> </li>
                   <li> <a href="panier.jsp"> Panier </a> </li>
@@ -114,24 +114,25 @@ for(LignePanier lp : panier.getLignesPanier())
             </div>
         <% } %>
 
+        <!-- categorie--->
+
       <div class="leftBox">
-        <h3>Produits Aléatoires</h3>
+        <h3>Categorie</h3>
         <div class="leftBoxBody">
           <ul class="sellerlist">
-            <%
-                ArticleDao daoo = new ArticleDao();
-                int ii = 0;
-                for(Article a : daoo.findRandom(4))
-                {
-                    ii++;
-            %>
-                <li><span><%= ii %>.</span>
-                    <p><a href="article.jsp?id=<%= a.getIdArticle() %>"><%= a.getLibelle() + " <br> <b>" + a.getPrix() + "$</b>" %></a></p>
+
+                <li><span></span>
+                    <p><a href=" Vêtements.jsp? " id="1" >Vêtements</a></p>
                     <div class="clr"></div>
                 </li>
-            <%
-                }
-            %>
+              <li><span></span>
+                  <p><a href=" Chaussures.jsp? id= 2 ">Chaussures</a></p>
+                  <div class="clr"></div>
+              </li>
+              <li><span></span>
+                  <p><a href=" Accessoires.jsp? id= 3 ">Accessoires</a></p>
+                  <div class="clr"></div>
+              </li>
           </ul>
           <div class="clr"></div>
         </div>
