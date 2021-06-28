@@ -7,29 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402bba61-db56-467d-944b-c5f30ddab227" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/entities/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/inputStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/images/slide.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/CommandeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/CommandeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/LigneCommandeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/LigneCommandeDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/images/logo-big-shopping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/panier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/panier.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/slideshow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/slideshow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/registerClient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/registerClient.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/CommandeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/CommandeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/LigneCommandeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/LigneCommandeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dao/CommandeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/CommandeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dao/LigneCommandeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/LigneCommandeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/entities/Card.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/logo-big-shopping.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/logo-big.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/panier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/panier.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/slideshow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/slideshow.jsp" afterDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/web/produits.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/produits.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/registerClient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/registerClient.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,17 +113,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,6 +244,7 @@
       <workItem from="1624615243758" duration="4244000" />
       <workItem from="1624621014246" duration="1365000" />
       <workItem from="1624723801496" duration="8476000" />
+      <workItem from="1624822130497" duration="5478000" />
     </task>
     <servers />
   </component>
@@ -281,16 +265,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServlet.class</url>
-          <line>58</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
