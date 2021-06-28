@@ -10,29 +10,29 @@
             <table style="padding-top: 100px;">
                 <tr>
                     <td>login : </td>
-                    <td><input  name="login" value="" > </td>
+                    <td><input class="intest" name="login" value="" > </td>
 
                 </tr>
                 <tr>
                     <td>Nom : </td>
-                    <td><input name="nom" value="" > </td>
+                    <td><input class="intest" name="nom" value="" > </td>
                 </tr>
                 <tr>
                     <td>Prenom : </td>
-                    <td><input name="prenom" value=""></td>
+                    <td><input class="intest" name="prenom" value=""></td>
                 </tr>
 
                 <tr>
                     <td>Mdp : </td>
-                    <td><input type="password" name="mdp" value=""></td>
+                    <td><input class="intest" type="password" name="mdp" value=""></td>
                 </tr>
 
                 <tr>
                     <td>
-                        <input class="inpute" type="submit" value="valider">
+                        <input  class="intest" type="submit" value="valider">
                     </td>
                     <td>
-                        <input class="inpute" type="reset" value="Annuler">
+                        <input class="intest" type="reset" value="Annuler">
                     </td>
                 </tr>
 

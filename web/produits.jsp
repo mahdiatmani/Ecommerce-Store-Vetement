@@ -52,7 +52,7 @@ while(t < NB_PRODUIT_PAGE/3 ) {
                     cls+= "last ";
                 }
 
-                if(articles.get(i).getDateAjout().getYear()+1900 >= 2014) {
+                if(articles.get(i).getDateAjout().getYear()+1900 >= 2060) {
                     cls+= "new ";
                 }
         %>
@@ -63,7 +63,7 @@ while(t < NB_PRODUIT_PAGE/3 ) {
                       <img width="203" height="186" src="<%= articles.get(i).getImg() %>" alt="" />
                   </a>
 <%
-if(articles.get(i).getDateAjout().getYear()+1900 >= 2014) {%>
+if(articles.get(i).getDateAjout().getYear()+1900 >= 2060) {%>
                 <div class="new"></div>
 <%}%>
             </div>

@@ -99,7 +99,7 @@ public class ArticleDao
 
     public Article findByID(int id)
     {
-        String req = "SELECT* " + " FROM article " + " WHERE idArticle = " + id;
+        String req = "  SELECT * FROM `wshop`.`article` WHERE idArticle = " + id;
 
         try
         {
@@ -111,8 +111,8 @@ public class ArticleDao
             if (rs.next())
             {
                 //Article(int idArticle, String libelle, String desc, double prix, String img, int qte, Date dateAjout)
+                e = new Article(rs.getInt(1), rs.getString(2), rs.getString(3),
 
-                e = new Article(rs.getInt(1), rs.getString(2),rs.getInt(8), rs.getString(3),
                         rs.getDouble(4), rs.getString(5), rs.getInt(6),
                         rs.getDate(7));
             }
