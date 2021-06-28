@@ -32,7 +32,6 @@
       <h1><a href="index.jsp">
           <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
           <img height="100" src="images/logo2.png" alt="OXO" /></a>
-
       </h1>
     </div>
     <!-- end div #Logo -->
@@ -48,7 +47,6 @@ double prixT = 0 ;
 
 for(LignePanier lp : panier.getLignesPanier())
     prixT += lp.getQuantite()*lp.getArticle().getPrix(); %>
-
 
         <li class="notification"><a href="panier.jsp">Panier d'Achat
             <span class="badge"><%= panier.getNumberArticle() %></span>
@@ -86,7 +84,7 @@ for(LignePanier lp : panier.getLignesPanier())
         <!-- Connexion DIV -->
         <% if(session.getAttribute("client") == null){ %>
             <div class="leftBox">
-              <h3>Connexion</h3>
+              <h3><p style= "font-size: 15px ; margin-left: 45px;margin-bottom:15px">Connexion</h3>
               <div class="leftBoxBody">
               <form method="GET" action="ConnexionServlet">
               <ul class="cat-link" style="margin-top:-20px">
@@ -100,10 +98,10 @@ for(LignePanier lp : panier.getLignesPanier())
             </div>
         <% }else{ %>
             <div class="leftBox">
-                <h3>Bienvenu</h3>
+                <h3><p style= "margin-left: 50px ; margin-bottom: 10px">Bienvenu</h3>
 
                 <div class="leftBoxBody">
-                  <p style=" margin-left: -10px ">Bienvenu <b> <%= ((Client)session.getAttribute("client")).getNom()  %></b></p>
+                    <p style="margin-top: -5px; margin-left: -10px ">Bienvenu <b> <%= ((Client)session.getAttribute("client")).getNom()  %></b></p>
               <ul class="cat-link" >
                   <li> <a href="mon_compte.jsp"> Mon Compte </a> </li>
                   <li> <a href="panier.jsp"> Panier </a> </li>
@@ -115,9 +113,8 @@ for(LignePanier lp : panier.getLignesPanier())
         <% } %>
 
         <!-- categorie--->
-
       <div class="leftBox">
-        <h3>Categorie</h3>
+        <h3><p style= "margin-left: 50px ; margin-bottom: 10px">Categorie</h3>
         <div class="leftBoxBody">
           <ul class="sellerlist">
 

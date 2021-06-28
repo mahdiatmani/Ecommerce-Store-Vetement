@@ -54,7 +54,6 @@
             Vector<LigneCommande> lc = daolc.findAll(c.getIdCommande());
             for(LigneCommande l : lc) {
                 Article a = (new ArticleDao()).findByID(l.getIdArticle());
-
         %>
         <tr>
             <td>

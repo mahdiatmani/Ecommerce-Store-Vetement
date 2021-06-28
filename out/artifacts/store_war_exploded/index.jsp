@@ -4,7 +4,6 @@
   <%@page import="dao.ArticleDao"%>
   <%@include file="header.jsp" %>
 
-
   <title> Vet Estore </title>
    <div class="RightSide">
     <%
