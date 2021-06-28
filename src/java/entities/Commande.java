@@ -7,12 +7,9 @@ package entities;
 
 import java.util.Date;
 
-/**
- *
- * @author Walid
- */
-public class Commande
-{
+
+public class Commande{
+
     private int idCommande ;
     private String login ;
     private Date dateCmd ;

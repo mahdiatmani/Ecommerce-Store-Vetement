@@ -9,11 +9,6 @@ import entities.Article;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Walid
- */
-
 public class LignePanier{
 
         private Article article;
