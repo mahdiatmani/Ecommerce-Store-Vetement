@@ -48,7 +48,7 @@ public class ClientDao
     {
         try
         {
-            String req = "DELETE FROM client " + "WHERE email = " + login;
+            String req = "DELETE FROM `client` WHERE `login` = " + login;
 
             Statement st = con.createStatement();
 
@@ -75,7 +75,7 @@ public class ClientDao
                     + "SET `mdp`='" + a.getMdp() + "', "
                     + "`nom`='" + a.getNom() + "', "
                     + "`prenom`='" + a.getPrenom() + "' "
-                    + "WHERE `email`='" + a.getLogin() + "';";
+                    + "WHERE `login`='" + a.getLogin() + "';";
 
             System.out.println(req);
 
@@ -99,7 +99,7 @@ public class ClientDao
 
     public Client findByAuthentification(String log, String pass)
     {
-        String req = "SELECT* " + " FROM client " + " WHERE email = '" + log + "' AND mdp = '" + pass + "';";
+        String req = "SELECT* " + " FROM client " + " WHERE login = '" + log + "' AND mdp = '" + pass + "';";
 
         try
         {
@@ -154,11 +154,11 @@ public class ClientDao
         return null;
     }
 
-    public boolean bloquer(String email) {
+    public boolean bloquer(String login) {
         try {
             String req = "UPDATE client SET "
                     + "etat=0"
-                    + " WHERE email='" + email + "';";
+                    + " WHERE login='" + login + "';";
 
             Statement st = con.createStatement();
 
@@ -184,7 +184,7 @@ public class ClientDao
                     + "`prenom`='" + a.getPrenom() + "', "
                     + "`dtnaissance`='" + a.getDtNaissance() + "', "
                     + "`etat`=" + a.getEtat() + "  "
-                    + "WHERE `email`='" + a.getLogin() + "';";
+                    + "WHERE `login`='" + a.getLogin() + "';";
 
             Statement st = con.createStatement();
 
@@ -202,8 +202,8 @@ public class ClientDao
         return false;
     }
 
-        public Client findByLogin(String email) {
-        String req = "SELECT* " + " FROM client " + " WHERE email = '" + email + "';";
+        public Client findByLogin(String login) {
+        String req = "SELECT* " + " FROM client " + " WHERE login = '" + login + "';";
 
         try {
             Statement st = con.createStatement();
