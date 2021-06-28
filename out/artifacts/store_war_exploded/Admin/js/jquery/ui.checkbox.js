@@ -1,5 +1,5 @@
 /**
- * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima atmani,oulma,atiqa,tijja
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima alexander.farkas
  * @version 1.3
  */
 (function($){
