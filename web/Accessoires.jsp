@@ -52,7 +52,7 @@ while(t < NB_PRODUIT_PAGE/3 ) {
                     cls+= "last ";
                 }
 
-                if(articles.get(i).getDateAjout().getYear()+1900 >= 2014) {
+                if(articles.get(i).getDateAjout().getYear()+1999 >= 2060) {
                     cls+= "new ";
                 }
         %>
@@ -63,7 +63,7 @@ while(t < NB_PRODUIT_PAGE/3 ) {
                       <img width="203" height="186" src="<%= articles.get(i).getImg() %>" alt="" />
                   </a>
 <%
-if(articles.get(i).getDateAjout().getYear()+1900 >= 2014) {%>
+if(articles.get(i).getDateAjout().getYear()+1999 >= 2060) {%>
                 <div class="new"></div>
 <%}%>
             </div>
@@ -84,7 +84,7 @@ init += 3 ;
       <div class="paging">
         <div class="pagingDiv">
             <span class="label">Page 
-                <b class="blue"><%= pageCourante %></b> � <%= nbTotalePages %></span>
+                <b class="blue"><%= pageCourante %></b> a <%= nbTotalePages %></span>
                 <% if(!(pageCourante <= 1) ){ %>
                 <span class="back">
                     <a href="?page=<%= pageCourante - 1 %>"><img src="images/back.gif" alt="" /></a>
