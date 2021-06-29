@@ -136,11 +136,11 @@
 			<div class="error-inner">This field is required.</div>
 			</td>-->
 		</tr>
-                
+
 		<tr>
 		<th valign="top">Date :</th>
 		<td class="noheight">
-		
+
 			<table border="0" cellpadding="0" cellspacing="0">
 			<tr  valign="top">
 				<td>
@@ -199,22 +199,22 @@
 				</td>
 				<td>
 					<select name="date_a" id="y"  class="styledselect-year">
-                                                <% 
+                                                <%
                                                     for(int i = 1999; i < 2060; i ++)
                                                     {
-                                                %>    
+                                                %>
                                                     <option value="<%= i %>"><%= i %></option>
-                                                    
+
                                                 <% } %>
-                                                
-						
+
+
 					</select>
-					
+
 				</td>
 				<td><a href=""  id="date-pick"><img src="images/forms/icon_calendar.jpg"   alt="" /></a></td>
 			</tr>
 			</table>
-		
+
 		</td>
 		<td></td>
 	</tr>

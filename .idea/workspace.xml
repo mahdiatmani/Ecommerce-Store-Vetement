@@ -7,8 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402bba61-db56-467d-944b-c5f30ddab227" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/jquery.bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/jquery.bind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/ui.checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/ui.checkbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/ModifierClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/ModifierClientServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/ModifierClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/ModifierClientServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/admin/ModifierClientServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/ModifierClientServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dao/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/ClientDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/servlets/CompteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/CompteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/servlets/registerClientServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/registerClientServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/ClientModifier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/ClientModifier.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/CompteListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/CompteListe.jsp" afterDir="false" />
     </list>
     <list id="fb49d1fd-bb83-429b-98ad-cfc7b7ae88e4" name="mahdi" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +254,7 @@
       <workItem from="1624920468759" duration="384000" />
       <workItem from="1624920865486" duration="99000" />
       <workItem from="1624920971955" duration="168000" />
-      <workItem from="1624922033428" duration="550000" />
+      <workItem from="1624922033428" duration="2533000" />
     </task>
     <servers />
   </component>

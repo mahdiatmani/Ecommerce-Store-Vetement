@@ -19,7 +19,6 @@ public class Client
   private String mdp ;
   private String nom ;
   private String prenom ;
-  private Date dtNaissance;
   private int etat;
 
     public Client()
@@ -35,23 +34,17 @@ public class Client
     }
   
     
-    public Client(String login, String mdp, String nom, String prenom, Date dtNaissance)
-    {
-        this.login = login;
-        this.mdp = mdp;
-        this.nom = nom;
-        this.prenom = prenom;
-        this.dtNaissance = dtNaissance;
-    }
+
+
+
 
     
-          public Client(String email, String mdp, String nom, String prenom, Date dtNaissance,int etat)
+          public Client(String email, String mdp, String nom, String prenom,int etat)
     {
         this.login = email;
         this.mdp = mdp;
         this.nom = nom;
         this.prenom = prenom;
-        this.dtNaissance = dtNaissance;
         this.etat=etat;
     }
 
@@ -88,10 +81,6 @@ public class Client
         return prenom;
     }
 
-    public Date getDtNaissance()
-    {
-        return dtNaissance;
-    }
 
     public void setLogin(String login)
     {
@@ -113,10 +102,6 @@ public class Client
         this.prenom = prenom;
     }
 
-    public void setDtNaissance(Date dtNaissance)
-    {
-        this.dtNaissance = dtNaissance;
-    }
 
     @Override
     public int hashCode()
@@ -153,7 +138,7 @@ public class Client
     @Override
     public String toString()
     {
-        return "Client{" + "email=" + login + ", mdp=" + mdp + ", nom=" + nom + ", prenom=" + prenom + ", dtNaissance=" + dtNaissance + '}';
+        return "Client{" + "email=" + login + ", mdp=" + mdp + ", nom=" + nom + ", prenom=" + prenom +"}";
     }
   
     

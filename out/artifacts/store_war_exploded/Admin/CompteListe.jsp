@@ -45,7 +45,7 @@
 				<div id="message-green">
 				<table border="0" width="100%" cellpadding="0" cellspacing="0">
 				<tr>
-                                    <td class="green-left">Mise a jour effectu� avec succes ! :D </td>
+                                    <td class="green-left">Mise a jour effectué avec succes ! :D </td>
 					<td class="green-right"><a class="close-green"><img src="images/table/icon_close_green.gif"   alt="" /></a></td>
 				</tr>
 				</table>
@@ -79,10 +79,8 @@
 					<th style="width: 120px" class="table-header-repeat line-left"><a >prenom</a></th>
 					<th style="width: 120px"  class="table-header-repeat line-left"><a >login</a></th>
 					<th style="width: 120px"  class="table-header-repeat line-left"><a >mot de passe</a></th>
-                                        <th style="width: 120px"  class="table-header-repeat line-left"><a >date de naissance</a></th>
                                         <th style="width: 120px"  class="table-header-repeat line-left"><a >Etat</a></th>
-                                        
-                                        <th style="width: 90px" class="table-header-options line-left"><a >Options</a></th>
+
 				</tr>
                                 <% 
                                     ClientDao dao = new ClientDao();
@@ -106,7 +104,6 @@
                                         <td><%= list.get(i).getPrenom() %></td>
                                         <td><%= list.get(i).getLogin() %></td>
 					<td><%= list.get(i).getMdp() %> </td>
-                                        <td><%= list.get(i).getDtNaissance() %> </td>
                                         <td><%= etat %></td>
 					<td class="options-width">
                                             <a href="ClientModifier.jsp?login=<%= list.get(i).getLogin() %>" title="Modifier" class="icon-1 info-tooltip"></a>

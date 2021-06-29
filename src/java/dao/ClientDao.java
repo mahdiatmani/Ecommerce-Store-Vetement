@@ -48,7 +48,7 @@ public class ClientDao
     {
         try
         {
-            String req = "DELETE FROM `client` WHERE `login` = " + login;
+            String req = "DELETE FROM client " + "WHERE login =   '"+login+"'";
 
             Statement st = con.createStatement();
 
@@ -112,7 +112,7 @@ public class ClientDao
             {
                 //public Client(String login, String mdp, String nom, String prenom, Date dtNaissance)
 
-                e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getDate(5));
+                e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4));
 
             }
             return e;
@@ -141,7 +141,7 @@ public class ClientDao
                     vect = new Vector<>();
                 }
 
-                Client e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getDate(5));
+                Client e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4));
 
                 vect.add(e);
             }
@@ -181,11 +181,8 @@ public class ClientDao
             String req = "UPDATE `wshop`.`client` SET "
                     + "`mdp`='" + a.getMdp() + "', "
                     + "`nom`='" + a.getNom() + "', "
-                    + "`prenom`='" + a.getPrenom() + "', "
-                    + "`dtnaissance`='" + a.getDtNaissance() + "', "
-                    + "`etat`=" + a.getEtat() + "  "
-                    + "WHERE `login`='" + a.getLogin() + "';";
-
+                    + "`prenom`='" + a.getPrenom() + "' "
+                    + "WHERE `login`='"+a.getLogin()+"'";
             Statement st = con.createStatement();
 
             int rs = st.executeUpdate(req);
@@ -214,7 +211,7 @@ public class ClientDao
             if (rs.next()) {
                 //public Client(String login, String mdp, String nom, String prenom, Date dtNaissance)
                 
-                e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getDate(5));
+                e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4));
             }
             return e;
 
