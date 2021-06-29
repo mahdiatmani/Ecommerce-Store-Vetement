@@ -16,9 +16,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
 public class ModifierArticleServlet extends HttpServlet {
-
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -31,8 +29,7 @@ public class ModifierArticleServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        try
-        {
+        try {
             String libelle = request.getParameter("libelle");
             double prix = Double.parseDouble(request.getParameter("prix"));
             int quantite = Integer.parseInt(request.getParameter("quantite"));
@@ -46,28 +43,24 @@ public class ModifierArticleServlet extends HttpServlet {
             String img = request.getParameter("urlImage");
             String desc = request.getParameter("desc");
             
-            int age = 2014 - a ;
-            
-            int id = Integer.parseInt(request.getParameter("id"));
-            
-            Article ar = new Article(id, libelle, desc, prix, img, quantite, dt);
+            int age = 2060 - a ;
             ArticleDao dao = new ArticleDao();
-            
-            if(dao.update(ar))
-            {
+
+            int id = Integer.parseInt(request.getParameter("id"));
+            int idcat = dao.findIDCategorie(request.getParameter("categorie"));
+
+            Article ar = new Article(id, libelle,idcat, desc, prix, img, quantite, dt);
+
+            if(dao.update(ar)) {
                 response.sendRedirect("Admin/ProduitListe.jsp?add=success");
-            }else
-            {
+            }else {
                 response.sendRedirect("Admin/ProduitListe.jsp?add=fail");
             }
             
-        }catch( Exception ex)
-        {
+        }catch( Exception ex) {
             response.sendRedirect("Admin/ProduitListe.jsp?add=fail");
         }
-        
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
@@ -106,5 +99,4 @@ public class ModifierArticleServlet extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
 }

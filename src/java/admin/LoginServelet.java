@@ -16,7 +16,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-
 public class LoginServelet extends HttpServlet {
 
     /**
@@ -50,16 +49,12 @@ public class LoginServelet extends HttpServlet {
                 response.sendRedirect("Admin/login.jsp");
                 return;
             }
-            
-            
+
             //LOGIN
-            
            ClientDao dao = new ClientDao();
             Client c = dao.findByAuthentification(login, pass);
-            
-            
-            if(c != null)
-            {
+
+            if(c != null) {
                 
                 if(session.getAttribute("user") == null)
                 {
@@ -71,7 +66,6 @@ public class LoginServelet extends HttpServlet {
             {
                 response.sendRedirect("Admin/login.jsp");
             }
-                
         }
     }
 
@@ -113,5 +107,4 @@ public class LoginServelet extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
 }

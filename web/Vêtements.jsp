@@ -1,4 +1,3 @@
-
 <%@page import="java.util.Calendar"%>
 <%@page import="entities.Article"%>
 <%@page import="java.util.Vector"%>
@@ -7,8 +6,7 @@
 
 <div class="RightSide">
     
-    
-      <div class="bredCrum" style="margin-bottom:38px;">
+         <div class="bredCrum" style="margin-bottom:38px;">
         <h4><a href="index.html">Accueil</a>   >>   <a href="#" class="select">Categorie</a> >>   <a href="#" class="select">Vêtements</a> </h4>
       </div>
     <% 

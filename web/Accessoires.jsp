@@ -7,7 +7,6 @@
 
 <div class="RightSide">
     
-    
       <div class="bredCrum" style="margin-bottom:38px;">
         <h4><a href="index.html">Accueil</a>   >>   <a href="#" class="select">Categorie</a> >>   <a href="#" class="select">Accessoires</a> </h4>
       </div>

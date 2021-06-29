@@ -8,6 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="402bba61-db56-467d-944b-c5f30ddab227" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ArticleModifier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ArticleModifier.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/ModifierArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/ModifierArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/ModifierArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/ModifierArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/ArticleDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/AjouterArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/AjouterArticleServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/BloquerClientServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/BloquerClientServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/LoginServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/LoginServelet.java" afterDir="false" />
@@ -19,6 +24,10 @@
       <change beforePath="$PROJECT_DIR$/src/java/admin/ValiderCommandeServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/ValiderCommandeServelet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/entities/Commande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/entities/Commande.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/panier/LignePanier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/panier/LignePanier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Accessoires.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Accessoires.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Chaussures.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Chaussures.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Vêtements.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Vêtements.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/produits.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/produits.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,6 +252,7 @@
       <workItem from="1624615243758" duration="4244000" />
       <workItem from="1624621014246" duration="1365000" />
       <workItem from="1624723801496" duration="8476000" />
+      <workItem from="1624805673898" duration="25231000" />
       <workItem from="1624822130497" duration="5478000" />
       <workItem from="1624909814109" duration="8196000" />
       <workItem from="1624922193574" duration="705000" />

@@ -1,4 +1,3 @@
-
 <%@page import="java.util.Calendar"%>
 <%@page import="entities.Article"%>
 <%@page import="java.util.Vector"%>
@@ -6,8 +5,7 @@
 <%@include file="header.jsp" %>
 
 <div class="RightSide">
-    
-    
+
       <div class="bredCrum" style="margin-bottom:38px;">
         <h4><a href="index.html">Accueil</a>   >>   <a href="#" class="select">Categorie</a> >>   <a href="#" class="select">Chaussures</a> </h4>
       </div>
