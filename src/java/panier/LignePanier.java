@@ -8,7 +8,10 @@ import entities.Article;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+/**
+ *
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
+ */
 public class LignePanier{
 
         private Article article;

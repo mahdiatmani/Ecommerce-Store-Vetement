@@ -13,7 +13,7 @@ import java.util.Vector;
 
 /**
  *
- * @author Walid
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
  */
 public class LigneCommandeDao
 {

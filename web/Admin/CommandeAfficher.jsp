@@ -134,12 +134,12 @@
 
                                     <td colspan="3" valign="top" >
                                     
-                                        <form id="mainform" method="GET"  action="../ValiderCommandeServelet">
+                                        <form id="mainform1" method="GET"  action="../ValiderCommandeServelet">
                                         <input name="id" type="hidden" value="<%= id %>"/>
                                         <input type="submit" value="" class="form-submit" style="text-align: center" />
                                         </form>
                                         
-                                        <form id="mainform" method="GET"  action="../RefuserCommandeServlet">
+                                        <form id="mainform2" method="GET"  action="../RefuserCommandeServlet">
                                         <input name="id" type="hidden" value="<%= id%>"/>
                                         <input type="submit" value="" class="form-reset"  style="text-align: center"/>
                                         </form>
@@ -167,7 +167,7 @@
                                 </div>
                                 <div class="clear"></div>
                         </div>
-                        <!-- end actions-box........... -->
+                        <--end actions-box........... -->
 
                         <!--  start paging..................................................... -->
                         <!-- ACTION BOX + PAGINATION 

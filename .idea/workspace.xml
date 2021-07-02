@@ -7,28 +7,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402bba61-db56-467d-944b-c5f30ddab227" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rapport mini projet  JEE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wshop.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Accessoires.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Accessoires.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ArticleModifier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ArticleModifier.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ClientModifier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/ClientModifier.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CommandeAfficher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CommandeAfficher.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CommandeListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CommandeListe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CompteListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/CompteListe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/_footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/_footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/jquery.bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/jquery.bind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/jquery.datePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/jquery.datePicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/jquery.usermode.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/jquery.usermode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/ui.checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Admin/js/jquery/ui.checkbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Chaussures.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Chaussures.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Vêtements.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/Vêtements.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/AjouterArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/AjouterArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/BloquerClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/BloquerClientServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/LoginServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/LoginServelet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/LogoutServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/LogoutServelet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/ModifierArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/ModifierArticleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/ModifierClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/ModifierClientServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/RefuserCommandeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/RefuserCommandeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/SupprimerArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/SupprimerArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/SupprimerClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/SupprimerClientServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/SuuprimeCommandeServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/SuuprimeCommandeServelet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/ValiderCommandeServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/admin/ValiderCommandeServelet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ClientDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/dao/ClientDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/entities/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/entities/Commande.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/entities/Commande.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/panier/LignePanier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/panier/LignePanier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/CompteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/CompteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/registerClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/store_war_exploded/WEB-INF/classes/servlets/registerClientServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/AjouterArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/AjouterArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/BloquerClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/BloquerClientServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/LoginServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/LoginServelet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/LogoutServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/LogoutServelet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/store/admin/ModifierArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/ModifierArticleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/store/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/ModifierClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/ModifierClientServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/RefuserCommandeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/RefuserCommandeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/SupprimerArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/SupprimerArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/SupprimerClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/SupprimerClientServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/SuuprimeCommandeServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/SuuprimeCommandeServelet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/admin/ValiderCommandeServelet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/admin/ValiderCommandeServelet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/dao/ClientDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/dao/ClientDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/entities/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/entities/Commande.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/entities/Commande.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/panier/LignePanier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/panier/LignePanier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/servlets/CompteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/servlets/CompteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/store/servlets/registerClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/store/servlets/registerClientServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/AjouterArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/AjouterArticleServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/BloquerClientServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/BloquerClientServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/LoginServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/LoginServelet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/LogoutServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/LogoutServelet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/ModifierArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/ModifierArticleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/admin/ModifierClientServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/ModifierClientServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/RefuserCommandeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/RefuserCommandeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/admin/SupprimerArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/SupprimerArticleServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/SupprimerClientServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/SupprimerClientServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/SuuprimeCommandeServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/SuuprimeCommandeServelet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/admin/ValiderCommandeServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/admin/ValiderCommandeServelet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dao/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/ClientDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dao/CommandeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/CommandeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dao/LigneCommandeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dao/LigneCommandeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/entities/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/entities/Commande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/entities/Commande.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/entities/LigneCommande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/entities/LigneCommande.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/panier/LignePanier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/panier/LignePanier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/panier/Panier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/panier/Panier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/servlets/CommanderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/CommanderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/servlets/CompteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/CompteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/servlets/ConnexionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/ConnexionServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/servlets/DeconnexionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/DeconnexionServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/servlets/PanierServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/PanierServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/servlets/registerClientServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/servlets/registerClientServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/test/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Accessoires.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Accessoires.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/ArticleModifier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/ArticleModifier.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/ClientModifier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/ClientModifier.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/CommandeAfficher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/CommandeAfficher.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/CommandeListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/CommandeListe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/CompteListe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/CompteListe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/_footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/_footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/js/jquery/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/js/jquery/date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/js/jquery/jquery.bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/js/jquery/jquery.bind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/js/jquery/jquery.datePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/js/jquery/jquery.datePicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/js/jquery/jquery.usermode.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/js/jquery/jquery.usermode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Admin/js/jquery/ui.checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Admin/js/jquery/ui.checkbox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Chaussures.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Chaussures.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Vêtements.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Vêtements.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/produits.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/produits.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/registerClient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/registerClient.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wshop (1).sql" beforeDir="false" />
     </list>
+    <list id="fb49d1fd-bb83-429b-98ad-cfc7b7ae88e4" name="mahdi" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +121,7 @@
         <option value="Class" />
       </list>
     </option>
+    <option name="SCHEME" value="Project" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +133,10 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/java/admin/AjouterArticleServlet.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/java/admin/BloquerClientServlet.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -82,8 +163,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -226,6 +310,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="402bba61-db56-467d-944b-c5f30ddab227" name="Default Changelist" comment="" />
+      <changelist id="fb49d1fd-bb83-429b-98ad-cfc7b7ae88e4" name="mahdi" comment="" />
       <created>1624150207084</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -256,6 +341,9 @@
       <workItem from="1624822130497" duration="5478000" />
       <workItem from="1624909814109" duration="8196000" />
       <workItem from="1624922193574" duration="705000" />
+      <workItem from="1624997519310" duration="823000" />
+      <workItem from="1625009785785" duration="169000" />
+      <workItem from="1625174074181" duration="10249000" />
     </task>
     <servers />
   </component>
@@ -276,5 +364,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/admin/AjouterArticleServlet.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

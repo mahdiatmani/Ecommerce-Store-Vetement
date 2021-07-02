@@ -118,20 +118,7 @@
 				</form>
 			</div>
 			<!--  end content-table  -->
-		
-                        
-			<!--  start actions-box ............................................... -->
-                        <!-- ACTION BOX + PAGINATION 
-                        
-			<div id="actions-box">
-				<a href="" class="action-slider"></a>
-				<div id="actions-box-slider">
-					<a href="" class="action-edit">Edit</a>
-					<a href="" class="action-delete">Delete</a>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<!-- end actions-box........... -->
+
 			
 			<!--  start paging..................................................... -->
                         <!-- ACTION BOX + PAGINATION 

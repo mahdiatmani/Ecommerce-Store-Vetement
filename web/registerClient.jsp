@@ -7,35 +7,35 @@
 <div class="RightSide" >
     <form action="registerClientServlet" method="post" >
         <center>
-            <table style="padding-top: 100px;">
+            <table style="padding-top: 150px;">
                 <tr>
                     <td>login : </td>
-                    <td><input class="intest" name="login" value="" > </td>
+                    <td><input style="height:25px;width: 200px;margin-bottom:5PX" name="login" value="" > </td>
 
                 </tr>
                 <tr>
                     <td>Nom : </td>
-                    <td><input class="intest" name="nom" value="" > </td>
+                    <td><input style="height:25px;width: 200px;margin-bottom:10PX " name="nom" value="" > </td>
                 </tr>
+
                 <tr>
                     <td>Prenom : </td>
-                    <td><input class="intest" name="prenom" value=""></td>
+                    <td><input style="height:25px;width: 200px;margin-bottom:10PX" name="prenom" value=""></td>
                 </tr>
 
                 <tr>
-                    <td>Mdp : </td>
-                    <td><input class="intest" type="password" name="mdp" value=""></td>
+                    <td>Mot de passe : </td>
+                    <td><input style="height:25px;width: 200px; margin-bottom:5PX" type="password" name="mdp" value=""></td>
                 </tr>
 
                 <tr>
                     <td>
-                        <input  class="intest" type="submit" value="valider">
+                        <input style="height:30px;width: 100px;background: #3e3e3e ;margin-left: 20px;margin-top:10PX" type="submit" value="valider">
                     </td>
                     <td>
-                        <input class="intest" type="reset" value="Annuler">
+                        <input style="height:30px;width: 100px;background: #3e3e3e;margin-left: 60px; margin-top:10PX" type="reset" value="Annuler">
                     </td>
                 </tr>
-
             </table>
         </center>
     </form>

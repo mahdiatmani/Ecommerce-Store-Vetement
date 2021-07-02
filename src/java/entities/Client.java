@@ -11,15 +11,14 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Walid
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
  */
 public class Client
 {
-  private String email ;
+  private String login ;
   private String mdp ;
   private String nom ;
   private String prenom ;
-  private Date dtNaissance;
   private int etat;
 
     public Client()
@@ -28,30 +27,24 @@ public class Client
 
     public Client(String email, String mdp, String nom, String prenom)
     {
-        this.email = email;
+        this.login = email;
         this.mdp = mdp;
         this.nom = nom;
         this.prenom = prenom;
     }
   
     
-    public Client(String login, String mdp, String nom, String prenom, Date dtNaissance)
-    {
-        this.email = login;
-        this.mdp = mdp;
-        this.nom = nom;
-        this.prenom = prenom;
-        this.dtNaissance = dtNaissance;
-    }
+
+
+
 
     
-          public Client(String email, String mdp, String nom, String prenom, Date dtNaissance,int etat)
+          public Client(String email, String mdp, String nom, String prenom,int etat)
     {
-        this.email = email;
+        this.login = email;
         this.mdp = mdp;
         this.nom = nom;
         this.prenom = prenom;
-        this.dtNaissance = dtNaissance;
         this.etat=etat;
     }
 
@@ -70,7 +63,7 @@ public class Client
     
     public String getLogin()
     {
-        return email;
+        return login;
     }
 
     public String getMdp()
@@ -88,14 +81,10 @@ public class Client
         return prenom;
     }
 
-    public Date getDtNaissance()
-    {
-        return dtNaissance;
-    }
 
-    public void setLogin(String email)
+    public void setLogin(String login)
     {
-        this.email = email;
+        this.login = login;
     }
 
     public void setMdp(String mdp)
@@ -113,16 +102,12 @@ public class Client
         this.prenom = prenom;
     }
 
-    public void setDtNaissance(Date dtNaissance)
-    {
-        this.dtNaissance = dtNaissance;
-    }
 
     @Override
     public int hashCode()
     {
         int hash = 7;
-        hash = 83 * hash + Objects.hashCode(this.email);
+        hash = 83 * hash + Objects.hashCode(this.login);
         hash = 83 * hash + Objects.hashCode(this.mdp);
         return hash;
     }
@@ -139,7 +124,7 @@ public class Client
             return false;
         }
         final Client other = (Client) obj;
-        if (!Objects.equals(this.email, other.email))
+        if (!Objects.equals(this.login, other.login))
         {
             return false;
         }
@@ -153,7 +138,7 @@ public class Client
     @Override
     public String toString()
     {
-        return "Client{" + "email=" + email + ", mdp=" + mdp + ", nom=" + nom + ", prenom=" + prenom + ", dtNaissance=" + dtNaissance + '}';
+        return "Client{" + "email=" + login + ", mdp=" + mdp + ", nom=" + nom + ", prenom=" + prenom +"}";
     }
   
     

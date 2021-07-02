@@ -13,124 +13,94 @@ import java.util.Vector;
 
 /**
  *
- * @author Walid
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
  */
-public class ClientDao
-{
-
+public class ClientDao {
     Connection con = DBConnexion.getInstance();
 
-    public boolean add(Client a)
-    {
-        try
-        {
+    public boolean add(Client a) {
+        try {
             String req = "INSERT INTO client  VALUES ('" + a.getLogin() + "', '" + a.getMdp() + "', '" + a.getNom() + "', '" + a.getPrenom() + "', NULL );";
 
             Statement st = con.createStatement();
 
             int rs = st.executeUpdate(req);
 
-            if (rs > 0)
-            {
+            if (rs > 0) {
                 return true;
             }
 
-        } catch (Exception e1)
-        {
+        } catch (Exception e1) {
             // TODO Auto-generated catch block
             e1.printStackTrace();
         }
-
         return false;
     }
 
-    public boolean remove(String login)
-    {
-        try
-        {
-            String req = "DELETE FROM client " + "WHERE email = " + login;
+    public boolean remove(String login) {
+        try {
+            String req = "DELETE FROM client " + "WHERE login =   '"+login+"'";
 
             Statement st = con.createStatement();
 
             int rs = st.executeUpdate(req);
-
-            if (rs > 0)
-            {
+            if (rs > 0) {
                 return true;
             }
 
-        } catch (Exception e1)
-        {
+        } catch (Exception e1) {
             e1.printStackTrace();
         }
-
         return false;
     }
 
-    public boolean update(Client a)
-    {
-        try
-        {
+    public boolean update(Client a) {
+        try {
             String req = "UPDATE `wshop`.`client` "
                     + "SET `mdp`='" + a.getMdp() + "', "
                     + "`nom`='" + a.getNom() + "', "
                     + "`prenom`='" + a.getPrenom() + "' "
-                    + "WHERE `email`='" + a.getLogin() + "';";
+                    + "WHERE `login`='" + a.getLogin() + "';";
 
             System.out.println(req);
-
             Statement st = con.createStatement();
-
             int rs = st.executeUpdate(req);
 
-            if (rs > 0)
-            {
+            if (rs > 0) {
                 return true;
             }
 
-        } catch (Exception e1)
-        {
+        } catch (Exception e1) {
             // TODO Auto-generated catch block
             e1.printStackTrace();
         }
-
         return false;
     }
 
-    public Client findByAuthentification(String log, String pass)
-    {
-        String req = "SELECT* " + " FROM client " + " WHERE email = '" + log + "' AND mdp = '" + pass + "';";
-
-        try
-        {
+    public Client findByAuthentification(String log, String pass) {
+        String req = "SELECT* " + " FROM client " + " WHERE login = '" + log + "' AND mdp = '" + pass + "';";
+        try {
             Statement st = con.createStatement();
             ResultSet rs = st.executeQuery(req);
 
             Client e = null;
-
-            if (rs.next())
-            {
+            if (rs.next()) {
                 //public Client(String login, String mdp, String nom, String prenom, Date dtNaissance)
 
-                e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getDate(5));
-
+                e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4));
             }
             return e;
 
-        } catch (Exception e)
-        {
+        } catch (Exception e) {
             e.printStackTrace();
         }
-
         return null;
     }
 
-    public Vector<Client> findAll()
-    {
+    public Vector<Client> findAll() {
         String req = "SELECT* " + " FROM client ";
 
         Vector<Client> vect = null;
-
         try {
             Statement st = con.createStatement();
             ResultSet rs = st.executeQuery(req);
@@ -141,7 +111,7 @@ public class ClientDao
                     vect = new Vector<>();
                 }
 
-                Client e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getDate(5));
+                Client e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4));
 
                 vect.add(e);
             }
@@ -154,11 +124,11 @@ public class ClientDao
         return null;
     }
 
-    public boolean bloquer(String email) {
+    public boolean bloquer(String login) {
         try {
             String req = "UPDATE client SET "
                     + "etat=0"
-                    + " WHERE email='" + email + "';";
+                    + " WHERE login='" + login + "';";
 
             Statement st = con.createStatement();
 
@@ -181,11 +151,8 @@ public class ClientDao
             String req = "UPDATE `wshop`.`client` SET "
                     + "`mdp`='" + a.getMdp() + "', "
                     + "`nom`='" + a.getNom() + "', "
-                    + "`prenom`='" + a.getPrenom() + "', "
-                    + "`dtnaissance`='" + a.getDtNaissance() + "', "
-                    + "`etat`=" + a.getEtat() + "  "
-                    + "WHERE `email`='" + a.getLogin() + "';";
-
+                    + "`prenom`='" + a.getPrenom() + "' "
+                    + "WHERE `login`='"+a.getLogin()+"'";
             Statement st = con.createStatement();
 
             int rs = st.executeUpdate(req);
@@ -202,8 +169,8 @@ public class ClientDao
         return false;
     }
 
-        public Client findByLogin(String email) {
-        String req = "SELECT* " + " FROM client " + " WHERE email = '" + email + "';";
+        public Client findByLogin(String login) {
+        String req = "SELECT* " + " FROM client " + " WHERE login = '" + login + "';";
 
         try {
             Statement st = con.createStatement();
@@ -214,7 +181,7 @@ public class ClientDao
             if (rs.next()) {
                 //public Client(String login, String mdp, String nom, String prenom, Date dtNaissance)
                 
-                e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getDate(5));
+                e = new Client(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4));
             }
             return e;
 

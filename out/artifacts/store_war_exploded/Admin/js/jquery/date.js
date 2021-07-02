@@ -71,7 +71,7 @@ Date.abbrMonthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', '
  * @name firstDayOfWeek
  * @type Number
  * @cat Plugins/Methods/Date
- * @author Kelvin Luck
+ * mahdi,mohamed,atiqa,oumaima
  */
 Date.firstDayOfWeek = 1;
 
@@ -81,7 +81,7 @@ Date.firstDayOfWeek = 1;
  * @name format
  * @type String
  * @cat Plugins/Methods/Date
- * @author Kelvin Luck
+ * mahdi,mohamed,atiqa,oumaima
  */
 Date.format = 'dd/mm/yyyy';
 //Date.format = 'mm/dd/yyyy';
@@ -95,7 +95,7 @@ Date.format = 'dd/mm/yyyy';
  * @name format
  * @type String
  * @cat Plugins/Methods/Date
- * @author Kelvin Luck
+ * mahdi,mohamed,atiqa,oumaima
  */
 Date.fullYearStart = '20';
 
@@ -384,7 +384,7 @@ Date.fullYearStart = '20';
 	 * @name zeroTime
 	 * @type Date
 	 * @cat Plugins/Methods/Date
-	 * @author Kelvin Luck
+	 * mahdi,mohamed,atiqa,oumaima
 	 */
 	add("zeroTime", function() {
 		this.setMilliseconds(0);
@@ -405,7 +405,7 @@ Date.fullYearStart = '20';
 	 * @name asString
 	 * @type Date
 	 * @cat Plugins/Methods/Date
-	 * @author Kelvin Luck
+	 * mahdi,mohamed,atiqa,oumaima
 	 */
 	add("asString", function(format) {
 		var r = format || Date.format;
@@ -434,7 +434,7 @@ Date.fullYearStart = '20';
 	 * @name fromString
 	 * @type Date
 	 * @cat Plugins/Methods/Date
-	 * @author Kelvin Luck
+	 * mahdi,mohamed,atiqa,oumaima
 	 */
 	Date.fromString = function(s)
 	{

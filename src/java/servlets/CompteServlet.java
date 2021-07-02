@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author Walid
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
  */
 public class CompteServlet extends HttpServlet
 {
@@ -39,7 +39,7 @@ public class CompteServlet extends HttpServlet
         String prenom = request.getParameter("prenom");
         String mdp = request.getParameter("mdp");
 
-        Client c = new Client(login, mdp, nom, prenom, null);
+        Client c = new Client(login, mdp, nom, prenom);
 
         ClientDao dao = new ClientDao();
 

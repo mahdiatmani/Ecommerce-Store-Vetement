@@ -45,7 +45,7 @@
 				<div id="message-green">
 				<table border="0" width="100%" cellpadding="0" cellspacing="0">
 				<tr>
-                                    <td class="green-left">Mise a jour effectu� avec succes ! :D </td>
+                                    <td class="green-left">Mise a jour effectué avec succes ! :D </td>
 					<td class="green-right"><a class="close-green"><img src="images/table/icon_close_green.gif"   alt="" /></a></td>
 				</tr>
 				</table>
@@ -61,7 +61,7 @@
 				<div id="message-red">
 				<table border="0" width="100%" cellpadding="0" cellspacing="0">
 				<tr>
-                                    <td class="red-left">Error. <a href="FilmAjouter.jsp">Veillez r�essayer !</a></td>
+                                    <td class="red-left">Error. <a href="FilmAjouter.jsp">Veillez réessayer !</a></td>
 					<td class="red-right"><a class="close-red"><img src="images/table/icon_close_red.gif"   alt="" /></a></td>
 				</tr>
 				</table>
@@ -79,10 +79,8 @@
 					<th style="width: 120px" class="table-header-repeat line-left"><a >prenom</a></th>
 					<th style="width: 120px"  class="table-header-repeat line-left"><a >login</a></th>
 					<th style="width: 120px"  class="table-header-repeat line-left"><a >mot de passe</a></th>
-                                        <th style="width: 120px"  class="table-header-repeat line-left"><a >date de naissance</a></th>
                                         <th style="width: 120px"  class="table-header-repeat line-left"><a >Etat</a></th>
-                                        
-                                        <th style="width: 90px" class="table-header-options line-left"><a >Options</a></th>
+
 				</tr>
                                 <% 
                                     ClientDao dao = new ClientDao();
@@ -106,7 +104,6 @@
                                         <td><%= list.get(i).getPrenom() %></td>
                                         <td><%= list.get(i).getLogin() %></td>
 					<td><%= list.get(i).getMdp() %> </td>
-                                        <td><%= list.get(i).getDtNaissance() %> </td>
                                         <td><%= etat %></td>
 					<td class="options-width">
                                             <a href="ClientModifier.jsp?login=<%= list.get(i).getLogin() %>" title="Modifier" class="icon-1 info-tooltip"></a>
@@ -123,46 +120,7 @@
 				<!--  end product-table................................... --> 
 				</form>
 			</div>
-			<!--  end content-table  -->
-		
-                        
-			<!--  start actions-box ............................................... -->
-                        <!-- ACTION BOX + PAGINATION 
-                        
-			<div id="actions-box">
-				<a href="" class="action-slider"></a>
-				<div id="actions-box-slider">
-					<a href="" class="action-edit">Edit</a>
-					<a href="" class="action-delete">Delete</a>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<!-- end actions-box........... -->
-			
-			<!--  start paging..................................................... -->
-                        <!-- ACTION BOX + PAGINATION 
-                        
-			<table border="0" cellpadding="0" cellspacing="0" id="paging-table">
-			<tr>
-			<td>
-				<a href="" class="page-far-left"></a>
-				<a href="" class="page-left"></a>
-				<div id="page-info">Page <strong>1</strong> / 15</div>
-				<a href="" class="page-right"></a>
-				<a href="" class="page-far-right"></a>
-			</td>
-			<td>
-			<select  class="styledselect_pages">
-				<option value="">Number of rows</option>
-				<option value="">1</option>
-				<option value="">2</option>
-				<option value="">3</option>
-			</select>
-			</td>
-			</tr>
-			</table>
-			<!--  end paging................ -->
-			
+
 			<div class="clear"></div>
 		 
 		</div>

@@ -3,6 +3,7 @@
 <%@page import="panier.LignePanier"%>
 <%@page import="panier.Panier"%>
 <%@page import="entities.Client"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -89,7 +90,7 @@ for(LignePanier lp : panier.getLignesPanier())
               <form method="GET" action="ConnexionServlet">
               <ul class="cat-link" style="margin-top:-20px">
                   <li> Login : <input type="text" name="login" style=" width:100%" /> </li>
-                  <li> Mdp : 	<input type="password" name="mdp" style="width:100%" /> </li>
+                  <li> Mot de passe : 	<input type="password" name="mdp" style="width:100%" /> </li>
                   </ul>
                   <a href="registerClient.jsp" style="margin:5px"> S'inscrire..</a>
                  <input style="margin-left:20px;margin-right:-20px;" type="submit" value="Valider" />

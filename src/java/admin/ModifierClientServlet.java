@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author islem
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
  */
 public class ModifierClientServlet extends HttpServlet {
 
@@ -56,7 +56,7 @@ public class ModifierClientServlet extends HttpServlet {
             int age = 2014 - a ;
             
             
-            Client ar = new Client(login,mdp,nom,prenom,null,etatf);
+            Client ar = new Client(login,mdp,nom,prenom,etatf);
             System.out.println("CLIENT");
             ClientDao dao = new ClientDao();
             System.out.println("CLIENTDAO");

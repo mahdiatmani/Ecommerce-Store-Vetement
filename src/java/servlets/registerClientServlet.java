@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
-
 public class registerClientServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request,
@@ -23,7 +21,7 @@ public class registerClientServlet extends HttpServlet {
         String prenom = request.getParameter("prenom");
         String mdp = request.getParameter("mdp");
 
-        Client c = new Client(login, mdp, nom, prenom, null);
+        Client c = new Client(login, mdp, nom, prenom);
 
         ClientDao dao = new ClientDao();
 

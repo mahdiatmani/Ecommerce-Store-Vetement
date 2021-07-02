@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package admin;
-
 import dao.ClientDao;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -13,9 +11,11 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+/**
+ *
+ * @author mahdi,mohamed,atiqa,oumaima
+ */
 public class BloquerClientServlet extends HttpServlet {
-
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -28,29 +28,20 @@ public class BloquerClientServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-       if(request.getSession().getAttribute("user") == null)
-        {
+       if(request.getSession().getAttribute("user") == null){
             response.sendRedirect("Admin/login.jsp");
             return ;
         }
-            
-        
         String login =request.getParameter("login");
 
         ClientDao dao = new ClientDao();
 
-
-
-        if(dao.bloquer(login))
-        {
+        if(dao.bloquer(login)) {
             response.sendRedirect("Admin/CompteListe.jsp?add=success");
-        }else
-        {
+        }else {
             response.sendRedirect("Admin/CompteListe.jsp?add=fail");
         }
-        
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
@@ -89,5 +80,4 @@ public class BloquerClientServlet extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
 }

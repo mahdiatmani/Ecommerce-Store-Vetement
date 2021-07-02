@@ -7,9 +7,11 @@ package entities;
 
 import java.util.Date;
 
-
-public class Commande{
-
+/**
+ *
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
+ */
+public class Commande {
     private int idCommande ;
     private String login ;
     private Date dateCmd ;

@@ -57,10 +57,10 @@
 		<!--  start step-holder -->
 		<div id="step-holder">
 			<div class="step-no"> - </div>
-			<div class="step-dark-left"><a href="">Détails du Client</a></div>
+			<div class="step-dark-left"><a href="">DÃ©tails du Client</a></div>
 			<div class="step-dark-right">&nbsp;</div>
 			<div class="step-no-off"> # </div>
-			<div class="step-light-left">Veillez saisir les détails </div>
+			<div class="step-light-left">Veillez saisir les dÃ©tails </div>
 			<div class="step-light-right">&nbsp;</div>
 			
 		</div>
@@ -72,7 +72,7 @@
                     <% int etat=f.getEtat();
                             String etatf="";   
                         if(etat==0)
-                            etatf="Bloqué";
+                            etatf="Bloque";
                         else
                              etatf="Actif";
                     %>
@@ -136,15 +136,15 @@
 			<div class="error-inner">This field is required.</div>
 			</td>-->
 		</tr>
-                
+
 		<tr>
 		<th valign="top">Date :</th>
 		<td class="noheight">
-		
+
 			<table border="0" cellpadding="0" cellspacing="0">
 			<tr  valign="top">
 				<td>
-				
+
 				<select name="date_j" id="d" class="styledselect-day">
 					<option value="">dd</option>
 					<option value="1">1</option>
@@ -199,22 +199,22 @@
 				</td>
 				<td>
 					<select name="date_a" id="y"  class="styledselect-year">
-                                                <% 
-                                                    for(int i = 1900; i < 2015; i ++)
+                                                <%
+                                                    for(int i = 1999; i < 2060; i ++)
                                                     {
-                                                %>    
+                                                %>
                                                     <option value="<%= i %>"><%= i %></option>
-                                                    
+
                                                 <% } %>
-                                                
-						
+
+
 					</select>
-					
+
 				</td>
 				<td><a href=""  id="date-pick"><img src="images/forms/icon_calendar.jpg"   alt="" /></a></td>
 			</tr>
 			</table>
-		
+
 		</td>
 		<td></td>
 	</tr>

@@ -7,7 +7,7 @@ package panier;
  */
 /**
  *
- * @author Walid
+ * @author mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima mahdi,mohamed,atiqa,oumaima
  */
 import entities.Article;
 import java.util.ArrayList;

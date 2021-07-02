@@ -1,29 +1,21 @@
 <%@page import="dao.ArticleDao"%>
 <%@page import="entities.Article"%>
 <% 
-        if(session.getAttribute("user") == null)
-        {
+        if(session.getAttribute("user") == null) {
             response.sendRedirect("login.jsp");
         }
         int id = 0;
         
-        try
-        {
-            
+        try {
             id = Integer.parseInt(request.getParameter("id"));
-        
         }catch(Exception ex){
-            
         }
-        
-        
         Article f = (new ArticleDao()).findByID(id);
         
         if(f == null)
             f = new Article();
         
 %>
-
 
 <%@include file="_header.jsp" %>
 
@@ -48,13 +40,11 @@
 	<td id="tbl-border-left"></td>
 	<td>
 	<!--  start content-table-inner -->
-        <div id="content-table-inner" style="width: 60%;float: left">
+        <div id="content-table-inner2" style="width: 60%;float: left">
 	
 	<table border="0" width="100%" cellpadding="0" cellspacing="0">
 	<tr valign="top">
 	<td>
-	
-	
 		<!--  start step-holder -->
 		<div id="step-holder">
 			<div class="step-no"> - </div>
